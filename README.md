@@ -1,0 +1,1 @@
+To use these, install the D&D 4e Offline Character Builder and [CBLoader](https://github.com/CBLoader/CBLoader).  Then, put the files you want to use in `%appdata%/CBLoader/Custom`.  Afterwards, they should appear in the Character Builder if you launch it using CBLoader.
