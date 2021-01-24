@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<D20Rules game-system="D&amp;D4E">
+	<UpdateInfo>
+	<Version>0.04</Version>
+		<Filename>50-houserules.part</Filename>
+	</UpdateInfo>
+	<!-- Houserules, mostly at the suggestion of blogofholding.com -->
+
+	<Changelog>
+	Updated 01-August-2020 File Created
+	Updated 01-August-2020 Updated feat text for consistency with vanilla text and fixed bonus requirements
+	</Changelog>
+
+	<!-- New houserule Feats -->
+
+	<RulesElement name="Attack Expertise" type="Feat" internal-id="ID_XYZ_FEAT_5001" source="Blog of Holding Homebrew" revision-date="01/08/2020 2:40:30 PM">
+		<Prereqs/>
+		<print-prereqs/>
+		<Flavor> In your hands, any weapon can hit its mark. </Flavor>
+		<specific name="Tier"> Heroic </specific>
+		<specific name="Short Description"> +1/+2/+3 (by tier) to attacks </specific>
+		<specific name="Special"/>
+		<specific name="type"/>
+		<specific name="Associated Power Info"/>
+		<specific name="Associated Powers"/>
+		<rules>
+			<statadd name="Attack Expertise" value="+1" />
+			<statadd name="Attack Expertise" value="+1" requires="Paragon Tier" />
+			<statadd name="Attack Expertise" value="+1" requires="Epic Tier" />
+			<statadd name="implement:attack" value="+Attack Expertise" type="Feat" requires="Attack Expertise" />
+			<statadd name="weapon:attack" value="+Attack Expertise" type="Feat" requires="Attack Expertise" />
+			<statadd name="ID_INTERNAL_CATEGORY_ATTACK:attack" value="+Attack Expertise" type="Feat" requires="Attack Expertise" />
+		</rules>
+You gain a +1 feat bonus to all attack rolls.  This bonus increases to +2 at 11th level and +3 at 21st level.
+	Helps keep up with monster defense scaling without using weapon/implement specialization feats, which are lame.  Cannot be combined with any Weapon/Implement Expertise feats.
+	</RulesElement>
+	
+	<RulesElement name="Damage Focus" type="Feat" internal-id="ID_XYZ_FEAT_5002" source="Blog of Holding Homebrew" revision-date="01/08/2020 2:40:30 PM">
+		<Prereqs/>
+		<print-prereqs/>
+		<Flavor> In your hands, every weapon cuts a little deeper. </Flavor>
+		<specific name="Tier"> Heroic </specific>
+		<specific name="Short Description"> +1/+2/+3 (by tier) to damage </specific>
+		<rules>
+			<statadd name="Damage Focus" value="+1"/>
+			<statadd name="Damage Focus" value="+1" requires="Paragon Tier"/>
+			<statadd name="Damage Focus" value="+1" requires="Epic Tier"/>
+			<statadd name="damage" value="+Damage Focus" type="Feat" requires="Damage Focus" />
+		</rules>
+You gain a +1 feat bonus to all damage rolls.  This bonus increases to +2 at 11th level and +3 at 21st level.
+	Helps keep up with monster HP scaling without using weapon/implement specialization feats, which are lame.  Cannot be combined with any Weapon/Implement Focus feats.
+	</RulesElement>
+
+	<!-- New houserule items -->
+
+	<RulesElement name="Hero's Trinket" type="Magic Item" internal-id="ID_XYZ_MAGIC_ITEM_5001" source="Blog of Holding Homebrew" revision-date="01/08/2020 2:40:30 PM">
+		<Flavor> A keepsake from your past, from which you draw strength to smite your foes. </Flavor>
+		<specific name="Level"> 1 </specific>
+		<specific name="Gold"> 0 </specific>
+		<specific name="Magic Item Type"> Wondrous Item </specific>
+		<specific name="Tier" />
+		<specific name="_Item_Set_ID" />
+		<specific name="Armor" />
+		<specific name="Weapon" />
+		<specific name="Requirement" />
+		<specific name="Critical" />
+		<specific name="Special" />
+		<specific name="_Rarity"> Uncommon </specific>
+		<specific name="Enhancement" />
+		<specific name="Granted Powers" />
+		<specific name="Property">+1 item bonus to damage.  This bonus increases to +2 at 11th level and +3 at 21st level.</specific>
+		<specific name="_SupportsID" />
+		<rules>
+			<statadd name="Hero's Trinket" value="+1"/>
+			<statadd name="Hero's Trinket" value="+1" requires="Paragon Tier"/>
+			<statadd name="Hero's Trinket" value="+1" requires="Epic Tier"/>
+			<statadd name="damage" value="+Hero's Trinket" type="Item"/>
+		</rules>
+	</RulesElement>
+
+</D20Rules>

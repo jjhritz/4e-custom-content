@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<D20Rules game-system="D&amp;D4E">
+	<UpdateInfo>
+		<Version>0.01</Version>
+		<Filename>55-blackpowder.part</Filename>
+	</UpdateInfo>
+	<!-- Adds basic black powder-era weaponry, such as flintlocks and bayonets -->
+
+	<Changelog>
+	Updated 01-August-2020 File Created
+	</Changelog>
+
+	<!-- New weapon groups -->
+	<RulesElement internal-id="ID_XYZ_WEAPON_GROUP_5501" name="Early Firearm" type="Weapon Group" source="Weapons of the Black Powder Age" revision-date="8/3/2020 9:07:10 AM" >
+		<specific name="Implement"> 0 </specific>
+Early firearms use rudimentary combustible materials such as black powder to propel a projectile down a long barrel.  While they require less training and physical strength to wield effecively than a bow, they require a steady hand to aim on account of the delay between pulling the trigger and firing.  Like a crossbow, early firearms must be reloaded after each shot, but it is a prolonged process as the powder and projectile must be loaded individually from the muzzle end.
+	</RulesElement>
+
+	<RulesElement internal-id="ID_XYZ_WEAPON_GROUP_5502" name="Bayonet" type="Weapon Group" source="Weapons of the Black Powder Age" revision-date="8/3/2020 9:22:10 AM" >
+		<specific name="Implement"> 0 </specific>
+Bayonets are blades or spikes ranging from the size of a dagger to that of a shortsword affixed to the muzzle of a firearm.  This allows the firearm to be used as a spear should the wielder find themselves in melee combat.  Bayonets were adopted to give riflemen defense against charging foes, especially those on horseback.  They can also be dismounted and used in-hand as a normal Light Blade should the situation demand. 
+	</RulesElement>
+
+
+	<!-- New weapon proficiencies -->
+	<RulesElement name="Weapon Proficiency (Flintlock Musket)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FLINTLOCK_MUSKET)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 9:40:00 AM" >
+		<Category> ID_INTERNAL_CATEGORY_MILITARY,ID_INTERNAL_CATEGORY_RANGED,ID_XYZ_WEAPON_GROUP_5501 </Category>
+	</RulesElement>
+
+	<RulesElement name="Weapon Proficiency (Flintlock Pistol)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FLINTLOCK_PISTOL)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 10:10:00 AM" >
+		<Category> ID_INTERNAL_CATEGORY_MILITARY,ID_INTERNAL_CATEGORY_RANGED,ID_XYZ_WEAPON_GROUP_5501 </Category>
+	</RulesElement>
+
+	<RulesElement name="Weapon Proficiency (Blunderbuss)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLUNDERBUSS)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 10:10:00 AM" >
+		<Category> ID_INTERNAL_CATEGORY_MILITARY,ID_INTERNAL_CATEGORY_RANGED,ID_XYZ_WEAPON_GROUP_5501 </Category>
+	</RulesElement>
+
+	<RulesElement name="Weapon Proficiency (Dragon Pistol)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DRAGON_PISTOL)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 10:10:00 AM" >
+		<Category> ID_INTERNAL_CATEGORY_MILITARY,ID_INTERNAL_CATEGORY_RANGED,ID_XYZ_WEAPON_GROUP_5501 </Category>
+	</RulesElement>
+
+	<RulesElement name="Weapon Proficiency (Breech-loading Musket)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BREECH_LOADING_MUSKET)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 10:10:00 AM" >
+		<Category> ID_INTERNAL_CATEGORY_SUPERIOR,ID_INTERNAL_CATEGORY_RANGED,ID_XYZ_WEAPON_GROUP_5501 </Category>
+	</RulesElement>
+
+	<RulesElement name="Weapon Proficiency (Bayonet, dismounted)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BAYONET_DISMOUNTED)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 10:53:00 AM" >
+		<Category> ID_INTERNAL_CATEGORY_MILITARY,ID_INTERNAL_CATEGORY_MELEE,ID_XYZ_WEAPON_GROUP_5502 </Category>
+	</RulesElement>
+
+	<RulesElement name="Weapon Proficiency (Bayonet, mounted)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BAYONET_MOUNTED)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 10:53:00 AM" >
+		<Category> ID_INTERNAL_CATEGORY_MILITARY,ID_INTERNAL_CATEGORY_MELEE,ID_XYZ_WEAPON_GROUP_5502 </Category>
+	</RulesElement>
+
+
+	<!-- New weapon proficiency feats -->
+	<RulesElement name="Weapon Proficiency (Flintlock Musket)" type="Feat" internal-id="ID_INTERNAL_FEAT_WEAPON_PROFICIENCY_(FLINTLOCK_MUSKET)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 9:44:00 AM" >
+	<specific name="_SupportsID"> ID_FMP_FEAT_178 </specific>
+		<specific name="_RequiresID" />
+		<specific name="Short Description"> Gain proficiency with flintlock muskets. </specific>
+		<specific name="Tier"> Heroic </specific>
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FLINTLOCK_MUSKET)" type="Proficiency" />
+		</rules>
+You gain proficiency with flintlock muskets.
+	</RulesElement>
+
+	<RulesElement name="Weapon Proficiency (Flintlock Pistol)" type="Feat" internal-id="ID_INTERNAL_FEAT_WEAPON_PROFICIENCY_(FLINTLOCK_PISTOL)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 10:35:00 AM" >
+	<specific name="_SupportsID"> ID_FMP_FEAT_178 </specific>
+		<specific name="_RequiresID" />
+		<specific name="Short Description"> Gain proficiency with flintlock pistols. </specific>
+		<specific name="Tier"> Heroic </specific>
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FLINTLOCK_PISTOL)" type="Proficiency" />
+		</rules>
+You gain proficiency with flintlock pistols.
+	</RulesElement>
+
+	<RulesElement name="Weapon Proficiency (Blunderbuss)" type="Feat" internal-id="ID_INTERNAL_FEAT_WEAPON_PROFICIENCY_(BLUNDERBUSS)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 10:37:00 AM" >
+	<specific name="_SupportsID"> ID_FMP_FEAT_178 </specific>
+		<specific name="_RequiresID" />
+		<specific name="Short Description"> Gain proficiency with blunderbusses. </specific>
+		<specific name="Tier"> Heroic </specific>
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLUNDERBUSS)" type="Proficiency" />
+		</rules>
+You gain proficiency with blunderbusses.
+	</RulesElement>
+
+	<RulesElement name="Weapon Proficiency (Dragon Pistol)" type="Feat" internal-id="ID_INTERNAL_FEAT_WEAPON_PROFICIENCY_(DRAGON_PISTOL)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 10:38:00 AM" >
+	<specific name="_SupportsID"> ID_FMP_FEAT_178 </specific>
+		<specific name="_RequiresID" />
+		<specific name="Short Description"> Gain proficiency with dragon pistols. </specific>
+		<specific name="Tier"> Heroic </specific>
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DRAGON_PISTOL)" type="Proficiency" />
+		</rules>
+You gain proficiency with dragon pistols.
+	</RulesElement>
+
+	<RulesElement name="Weapon Proficiency (Breech-loading Musket)" type="Feat" internal-id="ID_INTERNAL_FEAT_WEAPON_PROFICIENCY_(BREECH_LOADING_MUSKET)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 10:40:00 AM" >
+		<specific name="_SupportsID"> ID_FMP_FEAT_178 </specific>
+		<specific name="_RequiresID" />
+		<specific name="Short Description"> Gain proficiency with breech-loading muskets. </specific>
+		<specific name="Tier"> Heroic </specific>
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BREECH_LOADING_MUSKET)" type="Proficiency" />
+		</rules>
+You gain proficiency with breech-loading muskets.
+	</RulesElement>
+
+	<RulesElement name="Weapon Proficiency (Bayonet)" type="Feat" internal-id="ID_INTERNAL_FEAT_WEAPON_PROFICIENCY_(BAYONET)" source="Weapons of the Black Powder Age" revision-date="8/3/2020 10:00:00 AM" >
+	<specific name="_SupportsID"> ID_FMP_FEAT_178 </specific>
+		<specific name="_RequiresID" />
+		<specific name="Short Description"> Gain proficiency with bayonets. </specific>
+		<specific name="Tier"> Heroic </specific>
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BAYONET_DISMOUNTED)" type="Proficiency" />
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BAYONET_MOUNTED)" type="Proficiency" />
+		</rules>
+You gain proficiency with bayonets.
+	</RulesElement>
+
+
+	<!-- Add new weapons to existing groups where necessary -->
+	<AppendNodes internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_RANGED" name="Military Ranged" type="Proficiency" source="Core" >
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FLINTLOCK_MUSKET)" type="Proficiency" />
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FLINTLOCK_PISTOL)" type="Proficiency" />
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLUNDERBUSS)" type="Proficiency" />
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DRAGON_PISTOL)" type="Proficiency" />
+		</rules>
+	</AppendNodes>
+
+	<AppendNodes internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_GROUP_(LIGHT_BLADE)" name="Weapon Group (Light Blade)" type="Proficiency" source="Core"  >
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BAYONET_DISMOUNTED)" type="Proficiency" />
+		</rules>
+	</AppendNodes>
+
+	<AppendNodes internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_GROUP_(SPEAR)" name="Weapon Group (Spear)" type="Proficiency" source="Core" >
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BAYONET_MOUNTED)" type="Proficiency" />
+		</rules>
+	</AppendNodes>
+
+	<AppendNodes internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_MELEE" name="Military Melee" type="Proficiency" source="Core">
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BAYONET_DISMOUNTED)" type="Proficiency" />
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BAYONET_MOUNTED)" type="Proficiency" />
+		</rules>
+	</AppendNodes>
+
+	<AppendNodes internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_LIGHT_BLADE" name="Military Light Blade" type="Proficiency" source="Core">
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BAYONET_DISMOUNTED)" type="Proficiency" />
+		</rules>
+	</AppendNodes>
+
+	<AppendNodes internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_SPEAR" name="Military Spear" type="Proficiency" source="Core">
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BAYONET_MOUNTED)" type="Proficiency" />
+		</rules>
+	</AppendNodes>
+
+
+	<!-- Add new proficiencies to relevant classes -->
+
+
+	<!-- Add new weapon properties -->
+	<RulesElement internal-id="ID_XYZ_WEAPON_PROPERTY_40" name="Load Full" type="Weapon Property" source="Weapons of the Black Powder Age" revision-date="8/3/2020 7:48:39 PM">
+Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the ranged weapons table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow is “load minor,” which means it requires a minor action to load a bolt into the weapon. Early firearms are “load full,” meaning they require an entire turn to load. Early firearms are “load full,” meaning they require an entire turn to load.  If a power allows you to hit multiple targets, the additional load time is accounted for in the power.
+	</RulesElement>
+
+
+	<!-- New weapons -->
+	<RulesElement internal-id="ID_XYZ_WEAPON_5501" name="Flintlock Musket" type="Weapon" source="Weapons of the Black Powder Age" revision-date="8/3/2020 1:16:15 PM">
+		<Category>ID_INTERNAL_CATEGORY_TWO-HANDS,ID_XYZ_WEAPON_GROUP_5501,ID_INTERNAL_CATEGORY_TWO-HANDED,ID_INTERNAL_CATEGORY_SELECTABLE,ID_FMP_WEAPON_PROPERTY_4,ID_XYZ_WEAPON_PROPERTY_40</Category>
+		<specific name="Full Text"> Flintlock Musket
+Military two-handed ranged weapon
+Cost: 40 gp
+Damage: 2d6
+Proficient: +2
+Range: 30/60
+Weight: 11 lb.
+
+Properties: 
+Load Full (Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the ranged weapons table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow is “load minor,” which means it requires a minor action to load a bolt into the weapon. Early firearms are “load full,” meaning they require an entire turn to load. If a power allows you to hit multiple targets, the additional load time is accounted for in the power.).
+
+High Crit (A high crit weapon deals more damage when you score a critical hit with it. A critical hit deals maximum weapon damage and an extra 1[W] at 1st–10th levels, an extra 2[W] at 11th–20th levels, and an extra 3[W] at 21st–30th levels. This extra damage is in addition to any critical damage the weapon supplies if it is a magic weapon.).
+
+Group: 
+Early Firearm (Early firearms use rudimentary combustible materials such as black powder to propel a projectile down a long barrel.  While they require less training and physical strength to wield effecively than a bow, they require a steady hand to aim on account of the delay between pulling the trigger and firing.  Like a crossbow, early firearms must be reloaded after each shot, but it is a prolonged process as the powder and projectile must be loaded individually from the muzzle end.). </specific>
+		<specific name="Weight"> 11 </specific>
+		<specific name="Gold"> 40 </specific>
+		<specific name="Range"> 30/60 </specific>
+		<specific name="Damage"> 2d6 </specific>
+		<specific name="Proficiency Bonus"> 2 </specific>
+		<specific name="Weapon Category"> Military Ranged </specific>
+		<specific name="Hands Required"> Two-Handed </specific>
+		<specific name="Item Slot"> Two-Hands </specific>
+		<specific name="Group"> Early Firearm </specific>
+		<specific name="Properties"> Load Full, High Crit </specific>
+		<specific name="_Secondary End" />
+	</RulesElement>
+
+	<RulesElement internal-id="ID_XYZ_WEAPON_5503" name="Flintlock Pistol" type="Weapon" source="Weapons of the Black Powder Age" revision-date="8/3/2020 1:30:15 PM">
+		<Category>ID_INTERNAL_CATEGORY_ONE-HAND,ID_XYZ_WEAPON_GROUP_5501,ID_INTERNAL_CATEGORY_ONE-HANDED,ID_INTERNAL_CATEGORY_SELECTABLE,ID_FMP_WEAPON_PROPERTY_4,ID_XYZ_WEAPON_PROPERTY_40</Category>
+		<specific name="Full Text"> Flintlock Pistol
+Military one-handed ranged weapon
+Cost: 40 gp
+Damage: 2d4
+Proficient: +2
+Range: 15/30
+Weight: 3 lb.
+
+Properties: 
+Load Full (Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the ranged weapons table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow is “load minor,” which means it requires a minor action to load a bolt into the weapon. Early firearms are “load full,” meaning they require an entire turn to load. If a power allows you to hit multiple targets, the additional load time is accounted for in the power.).
+
+High Crit (A high crit weapon deals more damage when you score a critical hit with it. A critical hit deals maximum weapon damage and an extra 1[W] at 1st–10th levels, an extra 2[W] at 11th–20th levels, and an extra 3[W] at 21st–30th levels. This extra damage is in addition to any critical damage the weapon supplies if it is a magic weapon.).
+
+Group: 
+Early Firearm (Early firearms use rudimentary combustible materials such as black powder to propel a projectile down a long barrel.  While they require less training and physical strength to wield effecively than a bow, they require a steady hand to aim on account of the delay between pulling the trigger and firing.  Like a crossbow, early firearms must be reloaded after each shot, but it is a prolonged process as the powder and projectile must be loaded individually from the muzzle end.). </specific>
+		<specific name="Weight"> 3 </specific>
+		<specific name="Gold"> 30 </specific>
+		<specific name="Range"> 15/30 </specific>
+		<specific name="Damage"> 2d4 </specific>
+		<specific name="Proficiency Bonus"> 2 </specific>
+		<specific name="_Primary End" />
+		<specific name="Weapon Category"> Military Ranged </specific>
+		<specific name="Hands Required"> One-Handed </specific>
+		<specific name="Item Slot"> One-hand </specific>
+		<specific name="Group"> Early Firearm </specific>
+		<specific name="Properties"> Load Full, High Crit </specific>
+	</RulesElement>
+
+	<RulesElement internal-id="ID_XYZ_WEAPON_5505" name="Blunderbuss" type="Weapon" source="Weapons of the Black Powder Age" revision-date="8/3/2020 1:39:15 PM">
+		<Category>ID_INTERNAL_CATEGORY_TWO-HANDS,ID_XYZ_WEAPON_GROUP_5501,ID_INTERNAL_CATEGORY_TWO-HANDED,ID_INTERNAL_CATEGORY_SELECTABLE,ID_FMP_WEAPON_PROPERTY_4,ID_FMP_WEAPON_PROPERTY_10,ID_XYZ_WEAPON_PROPERTY_40</Category>
+		<specific name="Full Text"> Blunderbuss
+Military one-handed ranged weapon
+Cost: 40 gp
+Damage: 1d8
+Proficient: +3
+Range: 8/16
+Weight: 6 lb.
+
+Properties: 
+Load Full (Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the ranged weapons table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow is “load minor,” which means it requires a minor action to load a bolt into the weapon. Early firearms are “load full,” meaning they require an entire turn to load. If a power allows you to hit multiple targets, the additional load time is accounted for in the power.).
+
+High Crit (A high crit weapon deals more damage when you score a critical hit with it. A critical hit deals maximum weapon damage and an extra 1[W] at 1st–10th levels, an extra 2[W] at 11th–20th levels, and an extra 3[W] at 21st–30th levels. This extra damage is in addition to any critical damage the weapon supplies if it is a magic weapon.).
+
+Brutal 2 (A brutal weapon's minimum damage is higher than that of a normal weapon. When rolling the weapon's damage, reroll any die that displays a value equal to or lower than the brutal value given for the weapon. Reroll the die until the value shown exceeds the weapon's brutal value, and then use the new value.)
+
+Group: 
+Early Firearm (Early firearms use rudimentary combustible materials such as black powder to propel a projectile down a long barrel.  While they require less training and physical strength to wield effecively than a bow, they require a steady hand to aim on account of the delay between pulling the trigger and firing.  Like a crossbow, early firearms must be reloaded after each shot, but it is a prolonged process as the powder and projectile must be loaded individually from the muzzle end.). </specific>
+		<specific name="Weight"> 3 </specific>
+		<specific name="Gold"> 40 </specific>
+		<specific name="Range"> 10/20 </specific>
+		<specific name="Damage"> 1d8 </specific>
+		<specific name="Proficiency Bonus"> 3 </specific>
+		<specific name="_Primary End" />
+		<specific name="Weapon Category"> Military Ranged </specific>
+		<specific name="Hands Required"> Two-Handed </specific>
+		<specific name="Item Slot"> Two-Hands </specific>
+		<specific name="Group"> Early Firearm </specific>
+		<specific name="Properties"> Load Full, High Crit, Brutal </specific>
+	</RulesElement>
+
+	<RulesElement internal-id="ID_XYZ_WEAPON_5507" name="Dragon Pistol" type="Weapon" source="Weapons of the Black Powder Age" revision-date="8/4/2020 11:26:15 AM">
+		<Category>ID_INTERNAL_CATEGORY_ONE-HAND,ID_XYZ_WEAPON_GROUP_5501,ID_INTERNAL_CATEGORY_ONE-HANDED,ID_INTERNAL_CATEGORY_SELECTABLE,ID_FMP_WEAPON_PROPERTY_4,ID_FMP_WEAPON_PROPERTY_10,ID_XYZ_WEAPON_PROPERTY_40</Category>
+		<specific name="Full Text"> Dragon Pistol
+Military one-handed ranged weapon
+Cost: 30 gp
+Damage: 1d8
+Proficient: +3
+Range: 5/10
+Weight: 4 lb.
+
+Properties: 
+Load Full (Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the ranged weapons table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow is “load minor,” which means it requires a minor action to load a bolt into the weapon. Early firearms are “load full,” meaning they require an entire turn to load. If a power allows you to hit multiple targets, the additional load time is accounted for in the power.).
+
+High Crit (A high crit weapon deals more damage when you score a critical hit with it. A critical hit deals maximum weapon damage and an extra 1[W] at 1st–10th levels, an extra 2[W] at 11th–20th levels, and an extra 3[W] at 21st–30th levels. This extra damage is in addition to any critical damage the weapon supplies if it is a magic weapon.).
+
+Brutal 2 (A brutal weapon's minimum damage is higher than that of a normal weapon. When rolling the weapon's damage, reroll any die that displays a value equal to or lower than the brutal value given for the weapon. Reroll the die until the value shown exceeds the weapon's brutal value, and then use the new value.)
+
+Group: 
+Early Firearm (Early firearms use rudimentary combustible materials such as black powder to propel a projectile down a long barrel.  While they require less training and physical strength to wield effecively than a bow, they require a steady hand to aim on account of the delay between pulling the trigger and firing.  Like a crossbow, early firearms must be reloaded after each shot, but it is a prolonged process as the powder and projectile must be loaded individually from the muzzle end.). </specific>
+		<specific name="Weight"> 4 </specific>
+		<specific name="Gold"> 30 </specific>
+		<specific name="Range"> 5/10 </specific>
+		<specific name="Damage"> 1d8 </specific>
+		<specific name="Proficiency Bonus"> 3 </specific>
+		<specific name="_Primary End" />
+		<specific name="Weapon Category"> Military Ranged </specific>
+		<specific name="Hands Required"> One-Handed </specific>
+		<specific name="Item Slot"> One-hand </specific>
+		<specific name="Group"> Early Firearm </specific>
+		<specific name="Properties"> Load Full, High Crit, Brutal </specific>
+	</RulesElement>
+	
+	<RulesElement internal-id="ID_XYZ_WEAPON_5509" name="Breech-loading Musket" type="Weapon" source="Weapons of the Black Powder Age" revision-date="8/5/2020 11:34:30 PM">
+	<Category>ID_INTERNAL_CATEGORY_TWO-HANDS,ID_XYZ_WEAPON_GROUP_5501,ID_INTERNAL_CATEGORY_TWO-HANDED,ID_INTERNAL_CATEGORY_SELECTABLE,ID_FMP_WEAPON_PROPERTY_4,ID_FMP_WEAPON_PROPERTY_6</Category>
+		<specific name="Full Text"> Breech-loading Musket
+Superior two-handed ranged weapon
+Cost: 60 gp
+Damage: 2d6
+Proficient: +3
+Range: 30/60
+Weight: 11 lb.
+
+Properties: 
+Load Minor (Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the ranged weapons table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow and breech-loading musket are “load minor,” which means it requires a minor action to load a bolt or cartridge into the weapon. ).
+
+High Crit (A high crit weapon deals more damage when you score a critical hit with it. A critical hit deals maximum weapon damage and an extra 1[W] at 1st–10th levels, an extra 2[W] at 11th–20th levels, and an extra 3[W] at 21st–30th levels. This extra damage is in addition to any critical damage the weapon supplies if it is a magic weapon.).
+
+Group: 
+Early Firearm (Early firearms use rudimentary combustible materials such as black powder to propel a projectile down a long barrel.  While they require less training and physical strength to wield effecively than a bow, they require a steady hand to aim on account of the delay between pulling the trigger and firing.  Like a crossbow, early firearms must be reloaded after each shot, but it is a prolonged process as the powder and projectile must be loaded individually from the muzzle end.). </specific>
+		<specific name="Weight"> 4 </specific>
+		<specific name="Gold"> 60 </specific>
+		<specific name="Range"> 30/60 </specific>
+		<specific name="Damage"> 2d6 </specific>
+		<specific name="Proficiency Bonus"> 2 </specific>
+		<specific name="_Primary End" />
+		<specific name="Weapon Category"> Military Ranged </specific>
+		<specific name="Hands Required"> Two-Handed </specific>
+		<specific name="Item Slot"> TWo-hands </specific>
+		<specific name="Group"> Early Firearm </specific>
+		<specific name="Properties"> Load Minor, High Crit, Brutal </specific>
+	</RulesElement>
+
+	<RulesElement internal-id="ID_XYZ_WEAPON_5511" name="Bayonet, mounted" type="Weapon" source="Weapons of the Black Powder Age" revision-date="8/4/2020 11:44:15 AM">
+		<Category>ID_INTERNAL_CATEGORY_TWO-HANDS,ID_FMP_WEAPON_GROUP_22,ID_FMP_WEAPON_GROUP_35,ID_XYZ_WEAPON_GROUP_5502,ID_INTERNAL_CATEGORY_TWO-HANDED,ID_INTERNAL_CATEGORY_SELECTABLE</Category>
+		<specific name="Full Text"> Bayonet (mounted)
+Military two-handed melee weapon
+Cost: 10 gp
+Damage: 1d10
+Proficient: +2
+Weight: 0 lb.
+
+Properties: 
+Reach (With a reach weapon, you can attack enemies that are 2 squares away from you as well as adjacent enemies, with no attack penalty. You can still make opportunity attacks only against adjacent enemies. Likewise, you can flank only an adjacent enemy.).
+
+Group: 
+Polearm (Polearms are weapons mounted at the end of long hafts. All polearms also fall into another category of weapon, usually axe, heavy blade, or spear. Polearms are reach weapons.).
+Spear (Consisting of a stabbing head on the end of a long shaft, a spear is great for lunging attacks.). 
+Bayonet (Bayonets are blades or spikes ranging from the size of a dagger to that of a shortsword affixed to the muzzle of a firearm.  This allows the firearm to be used as a spear should the wielder find themselves in melee combat.  Bayonets were adopted to give riflemen defense against charging foes, especially those on horseback.  They can also be dismounted and used in-hand as a normal Light Blade should the situation demand.).</specific>
+		<specific name="Weight"> 0 </specific>
+		<specific name="Gold"> 10 </specific>
+		<specific name="Range" />
+		<specific name="Damage"> 1d10 </specific>
+		<specific name="Proficiency Bonus"> 2 </specific>
+		<specific name="_Primary End" />
+		<specific name="Weapon Category"> Military Melee </specific>
+		<specific name="Hands Required"> Two-Handed </specific>
+		<specific name="Item Slot"> Two-Hands </specific>
+		<specific name="Group"> Polearm, Spear, Bayonet </specific>
+		<specific name="Properties"> Reach </specific>
+	</RulesElement>
+
+	<RulesElement internal-id="ID_XYZ_WEAPON_5513" name="Bayonet, dismounted" type="Weapon" source="Weapons of the Black Powder Age" revision-date="8/4/2020 11:44:15 AM">
+		<Category>ID_FMP_WEAPON_PROPERTY_1,ID_FMP_WEAPON_GROUP_2,ID_XYZ_WEAPON_GROUP_5502,ID_INTERNAL_CATEGORY_ONE-HANDED,ID_INTERNAL_CATEGORY_SELECTABLE</Category>
+		<specific name="Full Text"> Bayonet (dismounted)
+Military one-handed melee weapon
+Cost: 0 gp
+Damage: 1d6
+Proficient: +2
+Weight: 2 lb.
+
+Properties: 
+Off-Hand (An off-hand weapon is light enough that you can hold it and attack effectively with it while holding a weapon in your main hand. You can't attack with both weapons in the same turn, unless you have a power that lets you do so, but you can attack with either weapon.).
+
+Group: 
+Light blade (Light blades reward accuracy as much as force. Pinpoint attacks, lunges, and agile defenses are the strong points of these weapons.).
+Bayonet (Bayonets are blades or spikes ranging from the size of a dagger to that of a shortsword affixed to the muzzle of a firearm.  This allows the firearm to be used as a spear should the wielder find themselves in melee combat.  Bayonets were adopted to give riflemen defense against charging foes, especially those on horseback.  They can also be dismounted and used in-hand as a normal Light Blade should the situation demand.).</specific>
+		<specific name="Weight"> 2 </specific>
+		<specific name="Gold"> 0 </specific>
+		<specific name="Range" />
+		<specific name="Damage"> 1d6 </specific>
+		<specific name="Proficiency Bonus"> 2 </specific>
+		<specific name="_Primary End" />
+		<specific name="Weapon Category"> Military Melee </specific>
+		<specific name="Hands Required"> One-Handed </specific>
+		<specific name="Item Slot"> Off-hand </specific>
+		<specific name="Group"> Light Blade, Bayonet </specific>
+		<specific name="Properties"> Off-hand </specific>
+	</RulesElement>
+
+
+	<!-- Add new ammo -->
+	<RulesElement internal-id="ID_XYZ_GEAR_5501" name="Powder and Shots" type="Gear" source="Weapons of the Black Powder Age" revision-date="8/4/2020 1:43:30 PM">
+		<specific name="Full Text"> Powder and Shot (10)
+Category: Ammunition
+Price: 1 gp 
+Weight: 2 lb
+Description: Powder and shot comes in pouches that hold 10 shots. Ammunition is used up when you fire it from a projectile weapon. </specific>
+		<specific name="Weight"> 2 </specific>
+		<specific name="Gold"> 1 </specific>
+		<specific name="Silver" />
+		<specific name="Copper" />
+		<specific name="Category"> Ammunition </specific>
+		<specific name="_RelatedElement"> ID_XYZ_GEAR_5502 </specific>
+		<specific name="count"> 10 </specific>
+		<specific name="_Monster" />
+Powder and shot come in pouches that hold 10 shots. Ammunition is used up when you fire it from a projectile weapon.
+	</RulesElement>
+
+	<RulesElement internal-id="ID_XYZ_GEAR_5502" name="Powder and Shot" type="Gear" source="Weapons of the Black Powder Age" revision-date="8/4/2020 1:44:00 PM">
+		<specific name="Full Text"> Powder and shot
+Category: Ammunition
+Price: 10 cp
+Weight: 0.2 lb
+Description: Powder and shot are used up when you fire them from a projectile weapon. </specific>
+		<specific name="Weight"> 0.2 </specific>
+		<specific name="Gold" />
+		<specific name="Silver" />
+		<specific name="Copper"> 10 </specific>
+		<specific name="Category"> Ammunition </specific>
+		<specific name="_RelatedElement"> ID_XYZ_GEAR_5501 </specific>
+		<specific name="count"> 1 </specific>
+		<specific name="_Monster" />
+Powder and shot are used up when you fire them from a projectile weapon.
+	</RulesElement>
+</D20Rules>
