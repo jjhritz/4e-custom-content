@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<D20Rules game-system="D&amp;D4E">
+	<UpdateInfo>
+	<Version>0.01</Version>
+		<Filename>Edhellon.part</Filename>
+	</UpdateInfo>
+	<!-- Content for the Edhellon homebrew setting -->
+
+	<Changelog>
+	Updated 24-January-2021 File Created
+	</Changelog>
+
+	<!-- New Feats -->
+
+	<!-- New item sets -->
+	<!--
+	<RulesElement internal-id="ID_EDHELLON_ITEM_SET_1" name="Daughters of Reki" type="Item Set" source="Edhellon" revision-date="24/01/2021 1:08:45 PM">
+    <specific name="Tier"> Heroic </specific>
+    <specific name="Lore"> A pair of finely-wrought daggers crafted by the Tiefling blacksmith Reki in Ashenguard, each named for one of her daughters.  After Reki's death in the fire that destroyed their home, her oldest daughter Karnayna wielded them to defend her younger sister Hara from the predations of the city, before they both too perished in flames.
+    </specific>
+    <specific name="Set Items"> ID_FMP_MAGIC_ITEM_6879,ID_FMP_MAGIC_ITEM_6931,ID_FMP_MAGIC_ITEM_6932,ID_FMP_MAGIC_ITEM_6933,ID_FMP_MAGIC_ITEM_6934,ID_FMP_MAGIC_ITEM_6935,ID_FMP_MAGIC_ITEM_6940,ID_FMP_MAGIC_ITEM_6946,ID_FMP_MAGIC_ITEM_6947,ID_FMP_MAGIC_ITEM_6948,ID_FMP_MAGIC_ITEM_6949,ID_FMP_MAGIC_ITEM_6950,ID_FMP_MAGIC_ITEM_6951,ID_FMP_MAGIC_ITEM_6952 </specific>
+    <specific name="Benefits"> ID_FMP_ITEM_SET_BENEFIT_1,ID_FMP_ITEM_SET_BENEFIT_2 </specific>
+The Aleheart Companions' Gear is a set of items first crafted for a legendary Underdark adventuring group. The items in the set were designed by dwarves for the benefit of their nondwarf allies, so that those allies might be gifted with the innate qualities of the dwarf race.
+   </RulesElement>
+
+	<!-- Item set benefits -->
+	<RulesElement internal-id="ID_EDHELLON_ITEM_SET_11" name="Blades of Reki (2)" type="Item Set Benefit" source="Edhellon" revision-date="24/01/2021 1:21:55 PM">
+    <specific name="_Item_Set_ID"> ID_EDHELLON_ITEM_SET_1 </specific>
+    <specific name="Piece Count"> 2 </specific>
+    <specific name="_SupportsID"> ID_EDHELLON_ITEM_SET_1 </specific>
+    <rules>
+		<statadd name="Daughters of Reki (2) Fire Resist" value="5" />
+		<statadd name="resist:fire" value="Daughters of Reki (2) Fire Resist" type="resist" />
+    </rules>
+		
+   </RulesElement>
+
+	<!-- New items -->
+
+	<!-- New artifacts -->
+	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="24/01/2021 3:46:40 PM">
+		<Flavor> This ornamented dagger is always warm to the touch.  Though it is scorched, the gold inlay on the blade is still visible, spelling the name "Karnayna", as is the crude scratching on the reverse side spelling the name "Reki".  When drawn, you hear the call of vengeance, not for yourself, but for the fallen around you. </Flavor>
+		<specific name="Level"/>
+		<specific name="Gold"/>
+		<specific name="Magic Item Type"> Artifact </specific>
+		<specific name="Tier"> Heroic </specific>
+		<specific name="_Item_Set_ID">ID_EDHELLON_ITEM_SET_1</specific>
+		<specific name="Armor"/>
+		<specific name="Weapon"> Dagger </specific>
+		<specific name="Item Slot"/>
+		<specific name="Requirement"/>
+		<specific name="Critical"> +1d6 fire damage, or +1d8 fire damage against cultists and their allies </specific>
+		<specific name="Special"/>
+		<specific name="Power" />
+		<specific name="_Rarity"/>
+		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
+		<specific name="Granted Powers"/>
+		<specific name="Rarity"> Uncommon </specific>
+		<specific name="Property">  </specific>
+		<specific name="Property"> You gain a +2 item bonus to Intimidate checks. </specific>
+		<rules>
+			<statadd name="Intimidate Misc" value="+2" type="item"/>
+		</rules>
+Goals of the Spear of the Skylord
+• 	Be possessed by a ruler of sky or a sky-living people.
+• 	Participate in war against people living on or in the earth.
+•	Kill servants of the gods.
+
+Roleplaying the Spear of the Skylord
+The Spear does not speak. It communicates its goals and satisfaction with its owner through gentle pulls, subtle emotions, and pulses of encouraging or discouraging energy along its haft. The Spear wants to be wielded by a strong, militant ruler, and it prefers commanding and militant owners that take charge and inflict their will on others.
+
+&lt;table&gt;Concordance
+Starting score	5
+Owner gains a level	+1d10
+Owner can fly	+2
+Owner slays a servant of a god (max 1/day)	+1
+Owner conquers a town, city, or kingdom	+1
+Owner submits to another's authority (max 1/day)	–1
+Owner loses a battle	–1&lt;/table&gt;
+
+Transcendent (Over 20)
+“None rule over me or my sky.”
+	The Spear is proud to be in the possession of such a great commander. The Spear's enhancement bonus increases to +4.
+
+Critical: +4d6 thunder damage, or +4d8 thunder damage against creatures standing on the ground.
+Property: Your fly speed increases by 4. If you have no fly speed, you gain fly 4.
+
+Pleased (16–20)
+“I challenge the right of the earthbound to command their own fate.”
+	The owner's conquests please the Spear, and it gives the owner greater power to continue the military campaign.
+
+Property: The item bonus to Intimidate checks increases to +4.
+Power (Encounter): Free Action. Use this power when you hit a creature with this weapon. The creature falls to the ground (if flying, taking falling damage as normal) and is immobilized (save ends).
+
+Satisfied (12–15)
+“Onward! Hordes yet remain for us to conquer!”
+	The owner has proved himself a champion against the earthbound. The Spear spurs its owner toward greater heights with greater gifts.
+
+Property: You gain a +1 bonus to attack rolls against any creature standing on the ground.
+Power (Daily): Standard Action. As the warlord's beat them into the ground power, but it affects allies within 10 squares of you.
+
+Normal (5–11)
+“I have the Spear, now I must claim a kingdom.”
+	The Spear keeps the owner under constant scrutiny, pushing him or her toward dominance of others.
+
+Unsatisfied (1–4)
+“The Spear chafes under my self-restraint.”
+	The owner does not seek the control that the Spear desires, and the Spear resorts to stronger encouragement.
+
+Special: You take a –2 penalty to Diplomacy checks.
+
+Angered (Below 1)
+“I escape the Spear's wrath only by bearing it.”
+	The Spear considers its owner unworthy. If the owner does not find redemption soon, the Spear exacts punishment upon him or her. Until then, the spear creates predicaments in which the owner might find a path to rulership.
+
+Special: Once per day, when you are addressed by a person of authority, the Spear leaps into its owner's hands and makes a melee basic attack against the person.
+
+Moving On
+“My sovereignty is in danger!”
+	The Spear of the Skylord leaves its owner in a spectacular fashion. When the owner (typically fashioned “the Skylord”) is engaged in a pivotal battle (often one on a scale involving armies), the Spear leaps from its owner's hand, and sails into the midst of the enemy or the enemy's stronghold, where it explodes with thunder and lightning, devastating the enemy. Thereafter, shards of the weapon wander the earth until they are again joined into the Spear.
+	If the Spear is displeased with its owner, it instead brings ruin to the owner's homeland. Massive cyclones and tornadoes descend upon the nation and cause disaster after disaster, and in the chaos the Spear disappears from its owner's possession.
+	</RulesElement>
+	-->
+	<!-- New Languages -->
+	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_1" name="North Ingolan" type="Language" source="Edhellon" revision-date="24/01/2021 10:03:50 PM">
+    <Category>ID_INTERNAL_CATEGORY_STARTING</Category>
+    <rules>
+      <statadd name="Language Count" value="+1" />
+    </rules>
+	
+</D20Rules>
