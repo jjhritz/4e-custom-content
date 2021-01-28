@@ -22,8 +22,10 @@
     <specific name="Benefits"> ID_FMP_ITEM_SET_BENEFIT_1,ID_FMP_ITEM_SET_BENEFIT_2 </specific>
 The Aleheart Companions' Gear is a set of items first crafted for a legendary Underdark adventuring group. The items in the set were designed by dwarves for the benefit of their nondwarf allies, so that those allies might be gifted with the innate qualities of the dwarf race.
    </RulesElement>
+   -->
 
 	<!-- Item set benefits -->
+	<!--
 	<RulesElement internal-id="ID_EDHELLON_ITEM_SET_11" name="Blades of Reki (2)" type="Item Set Benefit" source="Edhellon" revision-date="24/01/2021 1:21:55 PM">
     <specific name="_Item_Set_ID"> ID_EDHELLON_ITEM_SET_1 </specific>
     <specific name="Piece Count"> 2 </specific>
@@ -34,10 +36,12 @@ The Aleheart Companions' Gear is a set of items first crafted for a legendary Un
     </rules>
 		
    </RulesElement>
+   -->
 
 	<!-- New items -->
 
 	<!-- New artifacts -->
+	<!--
 	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="24/01/2021 3:46:40 PM">
 		<Flavor> This ornamented dagger is always warm to the touch.  Though it is scorched, the gold inlay on the blade is still visible, spelling the name "Karnayna", as is the crude scratching on the reverse side spelling the name "Reki".  When drawn, you hear the call of vengeance, not for yourself, but for the fallen around you. </Flavor>
 		<specific name="Level"/>
@@ -121,6 +125,7 @@ Moving On
 	If the Spear is displeased with its owner, it instead brings ruin to the owner's homeland. Massive cyclones and tornadoes descend upon the nation and cause disaster after disaster, and in the chaos the Spear disappears from its owner's possession.
 	</RulesElement>
 	-->
+	
 	<!-- New Languages -->
 	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_1" name="North Ingolan" type="Language" source="Edhellon" revision-date="24/01/2021 10:03:50 PM">
     <Category>ID_INTERNAL_CATEGORY_STARTING</Category>
