@@ -9,11 +9,12 @@
 	<Changelog>
 	Updated 01-August-2020 File Created
 	Updated 01-August-2020 Updated feat text for consistency with vanilla text and fixed bonus requirements
+	Updated 02-March-2021 Changed Attack Expertise, Damage Focus, and Hero's Trinket to untyped bonuses so they stack with everything.
 	</Changelog>
 
 	<!-- New houserule Feats -->
 
-	<RulesElement name="Attack Expertise" type="Feat" internal-id="ID_XYZ_FEAT_5001" source="Blog of Holding Homebrew" revision-date="01/08/2020 2:40:30 PM">
+	<RulesElement name="Attack Expertise" type="Feat" internal-id="ID_XYZ_FEAT_5001" source="Blog of Holding Homebrew" revision-date="02/03/2021 10:27:30 PM">
 		<Prereqs/>
 		<print-prereqs/>
 		<Flavor> In your hands, any weapon can hit its mark. </Flavor>
@@ -35,7 +36,7 @@ You gain a +1 bonus to all attack rolls.  This bonus increases to +2 at 11th lev
 	Helps keep up with monster defense scaling without using weapon/implement specialization feats, which are lame.  Cannot be combined with any Weapon/Implement Expertise feats.
 	</RulesElement>
 	
-	<RulesElement name="Damage Focus" type="Feat" internal-id="ID_XYZ_FEAT_5002" source="Blog of Holding Homebrew" revision-date="01/08/2020 2:40:30 PM">
+	<RulesElement name="Damage Focus" type="Feat" internal-id="ID_XYZ_FEAT_5002" source="Blog of Holding Homebrew" revision-date="02/03/2021 10:27:30 PM">
 		<Prereqs/>
 		<print-prereqs/>
 		<Flavor> In your hands, every weapon cuts a little deeper. </Flavor>
@@ -53,7 +54,7 @@ You gain a +1 bonus to all damage rolls.  This bonus increases to +2 at 11th lev
 
 	<!-- New houserule items -->
 
-	<RulesElement name="Hero's Trinket" type="Magic Item" internal-id="ID_XYZ_MAGIC_ITEM_5001" source="Blog of Holding Homebrew" revision-date="01/08/2020 2:40:30 PM">
+	<RulesElement name="Hero's Trinket" type="Magic Item" internal-id="ID_XYZ_MAGIC_ITEM_5001" source="Blog of Holding Homebrew" revision-date="02/03/2021 10:27:30 PM">
 		<Flavor> A keepsake from your past, from which you draw strength to smite your foes. </Flavor>
 		<specific name="Level"> 1 </specific>
 		<specific name="Gold"> 0 </specific>
