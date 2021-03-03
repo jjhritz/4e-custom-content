@@ -1,0 +1,16 @@
+<PartIndex>
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Edhellon.index</Filename>
+    <PartAddress>http://dl.dropbox.com/u/4187827/CharBuilder/Blood-of-the-Moon/Blood of the Moon.index</PartAddress>
+    <VersionAddress>http://dl.dropbox.com/u/4187827/CharBuilder/Blood-of-the-Moon/Blood of the Moon.txt</VersionAddress>
+  </UpdateInfo>
+  <Part>
+    <Filename>Edhellon.part</Filename>
+    <PartAddress>http://dl.dropbox.com/u/4187827/CharBuilder/Blood-of-the-Moon/CursedItems.part</PartAddress>
+  </Part>
+  <Part>
+    <Filename>50-houserules.part</Filename>
+    <PartAddress>http://dl.dropbox.com/u/4187827/CharBuilder/Blood-of-the-moon/People.part</PartAddress>
+  </Part>
+</PartIndex>
