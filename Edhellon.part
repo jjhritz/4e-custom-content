@@ -36,8 +36,7 @@
 		<rules>
 			<statadd name="Daughters of Reki (2) Fire Resist" value="5" />
 			<statadd name="resist:fire" value="Daughters of Reki (2) Fire Resist" type="resist" />
-		<!-- </rules> -->
-		
+		 </rules>
    </RulesElement>
 
 
