@@ -8,13 +8,14 @@
 
 	<Changelog>
 	Updated 24-January-2021 File Created
+	Updated 02-March-2021 Removed incorrect Set Items objects from Daughters of Reki and changed set benefit internal-id.  Renamed set to Undivided Daughters of Reki to conform to new naming convention.
 	</Changelog>
 
 	<!-- New Feats -->
 
 	<!-- New item sets -->
 
-	<RulesElement internal-id="ID_EDHELLON_ITEM_SET_1" name="Daughters of Reki" type="Item Set" source="Edhellon" revision-date="24/01/2021 1:08:45 PM">
+	<RulesElement internal-id="ID_EDHELLON_ITEM_SET_1" name="Undivided Daughters of Reki" type="Item Set" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
     <specific name="Tier"> Heroic </specific>
     <specific name="Lore"> A pair of finely-wrought daggers crafted by the Tiefling blacksmith Reki in Ashenguard, each named for one of her daughters.  After Reki's death in the fire that destroyed their home, her oldest daughter Karnayna wielded them to defend her younger sister Hara from the predations of the city, before they both too perished in flames.
     </specific>
@@ -26,7 +27,7 @@ The Aleheart Companions' Gear is a set of items first crafted for a legendary Un
 
 	<!-- Item set benefits -->
 
-	<RulesElement internal-id="ID_EDHELLON_SET_BEN_11" name="Blades of Reki (2)" type="Item Set Benefit" source="Edhellon" revision-date="24/01/2021 1:21:55 PM">
+	<RulesElement internal-id="ID_EDHELLON_SET_BEN_11" name="Daughters of Reki (2)" type="Item Set Benefit" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
     <specific name="_Item_Set_ID"> ID_EDHELLON_ITEM_SET_1 </specific>
     <specific name="Piece Count"> 2 </specific>
     <specific name="_SupportsID"> ID_EDHELLON_ITEM_SET_1 </specific>
@@ -42,7 +43,7 @@ The Aleheart Companions' Gear is a set of items first crafted for a legendary Un
 
 	<!-- New artifacts -->
 
-	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="24/01/2021 3:46:40 PM">
+	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
 		<Flavor> This ornamented dagger is always warm to the touch.  Though it is scorched, the gold inlay on the blade is still visible, spelling the name "Karnayna", as is the crude scratching on the reverse side spelling the name "Reki".  When drawn, you hear the call of vengeance, not for yourself, but for the fallen around you. </Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
@@ -78,7 +79,7 @@ The Aleheart Companions' Gear is a set of items first crafted for a legendary Un
     </rules>
 	</RulesElement>
 
-	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_1" name="High Vatharian" type="Language" source="Edhellon" revision-date="24/01/2021 10:03:50 PM">
+	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_1" name="High Vatharian" type="Language" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
     <Category>ID_INTERNAL_CATEGORY_STARTING</Category>
     <rules>
       <statadd name="Language Count" value="+1" />
