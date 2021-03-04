@@ -37,6 +37,7 @@
 		<specific name="Piece Count"> 2 </specific>
 		<specific name="_SupportsID"> ID_EDHELLON_ITEM_SET_1 </specific>
 		<specific name="Granted Powers"> ID_EDHELLON_SET_1_POWER_1</specific>
+		<specific name="_DisplayPowers"> ID_EDHELLON_SET_1_POWER_1 </specific>
 		<rules>
 			<statadd name="Daughters of Reki (2) Fire Resist" value="5" />
 			<statadd name="resist:fire" value="Daughters of Reki (2) Fire Resist" type="resist" />
