@@ -12,6 +12,7 @@
 	Updated 24-January-2021 File Created
 	Updated 02-March-2021 Removed incorrect Set Items objects from Daughters of Reki and changed set benefit internal-id.  Renamed set to Undivided Daughters of Reki to conform to new naming convention.
 	Updated 03-March-2021 Changed critical effect of Karnayna (Normal).  Added daily power to Karnayna (Normal).  Updated decription and lore DCs for Undivided Daughters of Reki.  Added description to Daughters of Reki (2).  Changed internal-id for Daughters of Reki (2) set benefit.  Added Hara (Normal).  Added Flaming Claws item set power and included it in Daughters of Reki (2) bonus.  Added Whitestrake Arrows +1.
+	Updated 04-March-2021 Edited Undivided Daughters of Reki lore.  Added missing statadd tag in Undivided Daughters of Reki responsible for increasing item set counter.
 	</Changelog>
 
 	<!-- New Feats -->
@@ -20,7 +21,7 @@
 
 	<RulesElement internal-id="ID_EDHELLON_ITEM_SET_1" name="Undivided Daughters of Reki" type="Item Set" source="Edhellon" revision-date="03/03/2021 10:12:15 PM">
 		<specific name="Tier"> Heroic </specific>
-		<specific name="Lore"> History DC 16: This pair of finely-wrought daggers was crafted by the Tiefling blacksmith Reki in Ashenguard to be the centerpiece of her shop, each named for one of her daughters.  
+		<specific name="Lore"> History DC 16: The daggers was crafted by the Tiefling blacksmith Reki in Ashenguard to be the centerpiece of her shop, each named for one of her daughters.  
 		History DC 18: After Reki's death in the fire that destroyed their home, her oldest daughter Karnayna wielded them to defend her younger sister Hara from the predations of the city, before they both too perished in flames.
 		</specific>
 		<specific name="Set Items"> ID_EDHELLON_MAGIC_ITEM_1101_NORMAL,ID_EDHELLON_MAGIC_ITEM_1102_NORMAL</specific>
@@ -87,15 +88,17 @@
 		<specific name="Requirement"/>
 		<specific name="Critical"> 5 ongoing fire damage (save ends), and +1d8 fire damage against cultists and their allies. </specific>
 		<specific name="Special"/>
+		<specific name="Property"> You gain a +2 item bonus to Intimidate and Streetwise. </specific>
 		<specific name="Power"> (Encounter ✦ Fire) Free Action.  Trigger: You hit an enemy with this weapon.  Effect: The target takes fire damage equal to your Charisma modifier.  Until the end of your next turn, you and all allies have a +2 bonus on attacks against the target and the target cannot benefit from concealment.</specific>
 		<specific name="_Rarity"/>
 		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
 		<specific name="Granted Powers"/>
 		<specific name="Rarity"> Rare </specific>
-		<specific name="Property"> You gain a +2 item bonus to Intimidate and Streetwise. </specific>
+		<specific name="_SupportsID"> ID_EDHELLON_ITEM_SET_1 </specific>
 		<rules>
 			<statadd name="Intimidate Misc" value="+2" type="item"/>
 			<statadd name="Streetwise Misc" value="+2" type="item"/>
+			<statadd name="ID_EDHELLON_ITEM_SET_1 Set Count" value="+1" type="Karnayna" />
 		</rules>
 	</RulesElement>
 
@@ -112,15 +115,17 @@
 		<specific name="Requirement"/>
 		<specific name="Critical">  +1d6 damage, or +1d8 fire damage against cultists and their allies, and the target is knocked prone.</specific>
 		<specific name="Special"/>
+		<specific name="Property"> You gain a +2 item bonus to Diplomacy and Stealth. </specific>
 		<specific name="Power"> (Encounter) Minor Action.  Gain a +2 power bonus to AC and Reflex until the start of your next turn.  The first enemy that hits you with an attack while this ability is active is blinded until the start of its next turn.</specific>
 		<specific name="_Rarity"/>
 		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
 		<specific name="Granted Powers"/>
 		<specific name="Rarity"> Rare </specific>
-		<specific name="Property"> You gain a +2 item bonus to Diplomacy and Stealth. </specific>
+		<specific name="_SupportsID"> ID_EDHELLON_ITEM_SET_1 </specific>
 		<rules>
 			<statadd name="Diplomacy Misc" value="+2" type="item"/>
 			<statadd name="Stealth Misc" value="+2" type="item"/>
+			<statadd name="ID_EDHELLON_ITEM_SET_1 Set Count" value="+1" type="Hara" />
 		</rules>
 	</RulesElement>
 	
