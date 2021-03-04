@@ -19,7 +19,7 @@
 
 	<!-- New item sets -->
 
-	<RulesElement internal-id="ID_EDHELLON_ITEM_SET_1" name="Undivided Daughters of Reki" type="Item Set" source="Edhellon" revision-date="03/03/2021 10:12:15 PM">
+	<RulesElement internal-id="ID_EDHELLON_ITEM_SET_1" name="Undivided Daughters of Reki" type="Item Set" source="Edhellon" revision-date="04/03/2021 8:30:10 AM">
 		<specific name="Tier"> Heroic </specific>
 		<specific name="Lore"> History DC 16: The daggers was crafted by the Tiefling blacksmith Reki in Ashenguard to be the centerpiece of her shop, each named for one of her daughters.  
 		History DC 18: After Reki's death in the fire that destroyed their home, her oldest daughter Karnayna wielded them to defend her younger sister Hara from the predations of the city, before they both too perished in flames.
@@ -75,7 +75,7 @@
 
 	<!-- New artifacts -->
 
-	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="03/03/2021 04:55:30 PM">
+	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="03/03/2021 04/03/2021 8:45:30 AM">
 		<Flavor> This ornamented dagger is always warm to the touch.  Though it is scorched, the masterful gold inlay on the blade appears untouched, spelling the name "Karnayna".  The crude scratching on the reverse side of the blade is also clearly visible, spelling the name "Reki".  When drawn, you hear the call of vengeance, not for yourself, but for the fallen around you. </Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
@@ -102,7 +102,7 @@
 		</rules>
 	</RulesElement>
 
-	<RulesElement name="Hara (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1102_NORMAL" source="Edhellon" revision-date="03/03/2021 5:00:30 PM">
+	<RulesElement name="Hara (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1102_NORMAL" source="Edhellon" revision-date="04/03/2021 8:45:30 AM">
 		<Flavor> This ornamented dagger is always warm to the touch.  Though it is scorched, the masterful gold inlay on the blade appears untouched, spelling the name "Hara".  The crude scratching on the reverse side of the blade is also clearly visible, spelling the name "Maraie".  When drawn, you feel an ache and realize how frightful this city has become. </Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
@@ -128,7 +128,7 @@
 			<statadd name="ID_EDHELLON_ITEM_SET_1 Set Count" value="+1" type="Hara" />
 		</rules>
 	</RulesElement>
-	
+
 	<!-- New Powers -->
 	<RulesElement internal-id="ID_EDHELLON_SET_1_POWER_1" name="Flaming Claws" type="Power" source="Edhellon" revision-date="03/03/2021 6:03:15 PM">
     <Category>ID_FMP_CATEGORY_3, ID_FMP_CATEGORY_24, ID_INTERNAL_CATEGORY_STANDARD_ACTION, ID_INTERNAL_CATEGORY_ATTACK, ID_INTERNAL_CATEGORY_DAILY</Category>
