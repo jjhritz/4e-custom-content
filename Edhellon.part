@@ -9,7 +9,7 @@
 	<Changelog>
 	Updated 24-January-2021 File Created
 	Updated 02-March-2021 Removed incorrect Set Items objects from Daughters of Reki and changed set benefit internal-id.  Renamed set to Undivided Daughters of Reki to conform to new naming convention.
-	Updated 03-March-2021 Changed critical effect of Karnayna (Normal).  Added daily power to Karnayna (Normal).  Updated decription and lore DCs for Undivided Daughters of Reki.  Added description to Daughters of Reki (2).  Changed internal-id for Daughters of Reki (2) set benefit.  Added Hara (Normal).  Added Flaming Claws item set power and included it in Daughters of Reki (2) bonus.
+	Updated 03-March-2021 Changed critical effect of Karnayna (Normal).  Added daily power to Karnayna (Normal).  Updated decription and lore DCs for Undivided Daughters of Reki.  Added description to Daughters of Reki (2).  Changed internal-id for Daughters of Reki (2) set benefit.  Added Hara (Normal).  Added Flaming Claws item set power and included it in Daughters of Reki (2) bonus.  Added Whitestrake Arrows +1.
 	</Changelog>
 
 	<!-- New Feats -->
@@ -44,6 +44,31 @@
 
 
 	<!-- New items -->
+
+	 <RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_101" name="Whitestrake Arrow +1" type="Magic Item" source="Edhellon">
+		<Flavor> These whitewood arrows appear absolutely flawless and the flectching seems to refract light into a rainbow. </Flavor>
+		<specific name="Level"> 4 </specific>
+		<specific name="Gold"> 840 </specific>
+		<specific name="Magic Item Type"> Ammunition </specific>
+		<specific name="Tier" />
+		<specific name="_Item_Set_ID" />
+		<specific name="Armor" />
+		<specific name="Weapon" />
+		<specific name="Item Slot" />
+		<specific name="Requirement" />
+		<specific name="Critical" />
+		<specific name="Special" />
+		<specific name="Power"> (At-Will ✦ Radiant) Free Action.  Trigger: You hit an enemy with this ammunition.  Effect: Make a secondary attack.
+		  Secondary Attack: +6 vs. Fortitude.
+		  Hit: Target is dazed and takes 3 ongoing radiant damage (save ends both).
+		</specific>
+		<specific name="_Rarity" />
+		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
+		<specific name="Granted Powers" />
+		<specific name="Rarity"> Rare </specific>
+		<specific name="Property"> Target takes 3 radiant damage. </specific>
+	</RulesElement>
+
 
 	<!-- New artifacts -->
 
