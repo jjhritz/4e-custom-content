@@ -18,12 +18,12 @@
 
 	<!-- New item sets -->
 
-	<RulesElement internal-id="ID_EDHELLON_ITEM_SET_1" name="Undivided Daughters of Reki" type="Item Set" source="Edhellon" revision-date="03/03/2021 05:31:10 PM">
+	<RulesElement internal-id="ID_EDHELLON_ITEM_SET_1" name="Undivided Daughters of Reki" type="Item Set" source="Edhellon" revision-date="03/03/2021 10:12:15 PM">
 		<specific name="Tier"> Heroic </specific>
 		<specific name="Lore"> History DC 16: This pair of finely-wrought daggers was crafted by the Tiefling blacksmith Reki in Ashenguard to be the centerpiece of her shop, each named for one of her daughters.  
 		History DC 18: After Reki's death in the fire that destroyed their home, her oldest daughter Karnayna wielded them to defend her younger sister Hara from the predations of the city, before they both too perished in flames.
 		</specific>
-		<specific name="Set Items"> ID_EDHELLON_MAGIC_ITEM_1101_NORMAL ID_EDHELLON_MAGIC_ITEM_1102_NORMAL</specific>
+		<specific name="Set Items"> ID_EDHELLON_MAGIC_ITEM_1101_NORMAL,ID_EDHELLON_MAGIC_ITEM_1102_NORMAL</specific>
 		<specific name="Benefits"> ID_EDHELLON_SET_1_BEN_1 </specific>
 		A pair of finely-wrought daggers with beautiful gold inlay running their entire length.  The name "Karnayna" is worked into the inlay of one knife and the name "Hara" is worked into the inlay of the other.  On the reverse of the blades, more names have been crudely scratched: "Reki" and "Maraie".
 	</RulesElement>
