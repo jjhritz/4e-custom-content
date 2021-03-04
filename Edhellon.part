@@ -48,7 +48,7 @@
 
 	<!-- New items -->
 
-	 <RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_101" name="Whitestrake Arrow +1" type="Magic Item" source="Edhellon" revision-date="03/03/2021 10:10:12 PM">
+	 <RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_101" name="Whitestrake Arrow +1" type="Magic Item" source="Edhellon" revision-date="04/03/2021 9:15:20 AM">
 		<Flavor> These whitewood arrows appear absolutely flawless and the flectching seems to refract light into a rainbow. </Flavor>
 		<specific name="Level"> 4 </specific>
 		<specific name="Gold"> 840 </specific>
@@ -61,6 +61,7 @@
 		<specific name="Requirement" />
 		<specific name="Critical" />
 		<specific name="Special" />
+		<specific name="Property"> Target takes 3 radiant damage. </specific>
 		<specific name="Power"> (At-Will ✦ Radiant) Free Action.  Trigger: You hit an enemy with this ammunition.  Effect: Make a secondary attack.
   Secondary Attack: +6 vs. Fortitude.
   Hit: Target is dazed and takes 3 ongoing radiant damage (save ends both).
@@ -69,13 +70,12 @@
 		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
 		<specific name="Granted Powers" />
 		<specific name="Rarity"> Rare </specific>
-		<specific name="Property"> Target takes 3 radiant damage. </specific>
 	</RulesElement>
 
 
 	<!-- New artifacts -->
 
-	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="03/03/2021 04/03/2021 8:45:30 AM">
+	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="04/03/2021 8:45:30 AM">
 		<Flavor> This ornamented dagger is always warm to the touch.  Though it is scorched, the masterful gold inlay on the blade appears untouched, spelling the name "Karnayna".  The crude scratching on the reverse side of the blade is also clearly visible, spelling the name "Reki".  When drawn, you hear the call of vengeance, not for yourself, but for the fallen around you. </Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
