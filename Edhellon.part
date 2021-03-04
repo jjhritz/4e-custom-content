@@ -58,18 +58,18 @@
 		<specific name="Armor" />
 		<specific name="Weapon" />
 		<specific name="Item Slot" />
+		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
+		<specific name="Rarity"> Uncommon </specific>
+		<specific name="_Rarity"> Uncommon </specific>
 		<specific name="Requirement" />
 		<specific name="Critical" />
 		<specific name="Special" />
 		<specific name="Property"> Target takes 3 radiant damage. </specific>
-		<specific name="Power"> (At-Will ✦ Radiant) Free Action.  Trigger: You hit an enemy with this ammunition.  Effect: Make a secondary attack.
+		<specific name="Power"> Power (At-Will ✦ Radiant) Free Action.  Trigger: You hit an enemy with this ammunition.  Effect: Make a secondary attack.
   Secondary Attack: +6 vs. Fortitude.
   Hit: Target is dazed and takes 3 ongoing radiant damage (save ends both).
 		</specific>
-		<specific name="_Rarity" />
-		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
 		<specific name="Granted Powers" />
-		<specific name="Rarity"> Rare </specific>
 	</RulesElement>
 
 
@@ -86,14 +86,14 @@
 		<specific name="Weapon"> Dagger </specific>
 		<specific name="Item Slot"/>
 		<specific name="Requirement"/>
+		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
+		<specific name="Rarity"> Rare </specific>
+		<specific name="_Rarity"> Rare </specific>
 		<specific name="Critical"> 5 ongoing fire damage (save ends), and +1d8 fire damage against cultists and their allies. </specific>
 		<specific name="Special"/>
 		<specific name="Property"> You gain a +2 item bonus to Intimidate and Streetwise. </specific>
-		<specific name="Power"> (Encounter ✦ Fire) Free Action.  Trigger: You hit an enemy with this weapon.  Effect: The target takes fire damage equal to your Charisma modifier.  Until the end of your next turn, you and all allies have a +2 bonus on attacks against the target and the target cannot benefit from concealment.</specific>
-		<specific name="_Rarity"/>
-		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
+		<specific name="Power"> Power (Encounter ✦ Fire) Free Action.  Trigger: You hit an enemy with this weapon.  Effect: The target takes fire damage equal to your Charisma modifier.  Until the end of your next turn, you and all allies have a +2 bonus on attacks against the target and the target cannot benefit from concealment.</specific>
 		<specific name="Granted Powers"/>
-		<specific name="Rarity"> Rare </specific>
 		<specific name="_SupportsID"> ID_EDHELLON_ITEM_SET_1 </specific>
 		<rules>
 			<statadd name="Intimidate Misc" value="+2" type="item"/>
@@ -113,14 +113,14 @@
 		<specific name="Weapon"> Dagger </specific>
 		<specific name="Item Slot"/>
 		<specific name="Requirement"/>
+		<specific name="Rarity"> Rare </specific>
+		<specific name="_Rarity"> Rare </specific>
+		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
 		<specific name="Critical">  +1d6 damage, or +1d8 fire damage against cultists and their allies, and the target is knocked prone.</specific>
 		<specific name="Special"/>
 		<specific name="Property"> You gain a +2 item bonus to Diplomacy and Stealth. </specific>
-		<specific name="Power"> (Encounter) Minor Action.  Gain a +2 power bonus to AC and Reflex until the start of your next turn.  The first enemy that hits you with an attack while this ability is active is blinded until the start of its next turn.</specific>
-		<specific name="_Rarity"/>
-		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
+		<specific name="Power"> Power (Encounter) Minor Action.  Gain a +2 power bonus to AC and Reflex until the start of your next turn.  The first enemy that hits you with an attack while this ability is active is blinded until the end of its next turn.</specific>
 		<specific name="Granted Powers"/>
-		<specific name="Rarity"> Rare </specific>
 		<specific name="_SupportsID"> ID_EDHELLON_ITEM_SET_1 </specific>
 		<rules>
 			<statadd name="Diplomacy Misc" value="+2" type="item"/>
