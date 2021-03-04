@@ -131,29 +131,29 @@
 
 	<!-- New Powers -->
 	<RulesElement internal-id="ID_EDHELLON_SET_1_POWER_1" name="Flaming Claws" type="Power" source="Edhellon" revision-date="03/03/2021 6:03:15 PM">
-    <Category>ID_FMP_CATEGORY_3, ID_FMP_CATEGORY_24, ID_INTERNAL_CATEGORY_STANDARD_ACTION, ID_INTERNAL_CATEGORY_ATTACK, ID_INTERNAL_CATEGORY_DAILY</Category>
-    <Flavor> With a swipe of one dagger, spectral claws of fire drive your enemies back into their fellows, and with a swipe of the second they are all scattered like ashes. </Flavor>
-    <specific name="Power Usage"> Daily </specific>
-    <specific name="Display"> Item Set Power </specific>
-    <specific name="Keywords"> Fire, Weapon </specific>
-    <specific name="Action Type"> Standard action </specific>
-    <specific name="Attack Type"> Close burst 1 </specific>
-	<specific name="Requirement"> You must be wielding a Daughter of Reki in each hand. </specific>
-    <specific name="Target"> All enemies in burst </specific>
-    <specific name="Primary Attack"> Strength vs. Reflex </specific>
-    <specific name="Hit"> 2[W] + Strength modifier fire damage, and you push the target 1 square. </specific>
-    <specific name="Effect"> You make a secondary attack in Close Burst 2 with your other weapon</specific>
-    <specific name=" Secondary Attack"> Strength vs. Reflex </specific>
-    <specific name=" Hit"> 2[W] + Strength modifier fire damage, and you push the target 1 square. If the target is bloodied, you push it 3 squares.</specific>
-    <specific name="Power Type"> Attack </specific>
-  </RulesElement>
+		<Category>ID_FMP_CATEGORY_3, ID_FMP_CATEGORY_24, ID_INTERNAL_CATEGORY_STANDARD_ACTION, ID_INTERNAL_CATEGORY_ATTACK, ID_INTERNAL_CATEGORY_DAILY</Category>
+		<Flavor> With a swipe of one dagger, spectral claws of fire drive your enemies back into their fellows, and with a swipe of the second they are all scattered like ashes. </Flavor>
+		<specific name="Power Usage"> Daily </specific>
+		<specific name="Display"> Item Set Power </specific>
+		<specific name="Keywords"> Fire, Weapon </specific>
+		<specific name="Action Type"> Standard action </specific>
+		<specific name="Attack Type"> Close burst 1 </specific>
+		<specific name="Requirement"> You must be wielding a Daughter of Reki in each hand. </specific>
+		<specific name="Target"> All enemies in burst </specific>
+		<specific name="Primary Attack"> Strength vs. Reflex </specific>
+		<specific name="Hit"> 2[W] + Strength modifier fire damage, and you push the target 1 square. </specific>
+		<specific name="Effect"> You make a secondary attack in Close Burst 2 with your other weapon</specific>
+		<specific name=" Secondary Attack"> Strength vs. Reflex </specific>
+		<specific name=" Hit"> 2[W] + Strength modifier fire damage, and you push the target 1 square. If the target is bloodied, you push it 3 squares.</specific>
+		<specific name="Power Type"> Attack </specific>
+	</RulesElement>
 	
 	<!-- New Languages -->
 	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_1" name="North Ingolan" type="Language" source="Edhellon" revision-date="24/01/2021 10:03:50 PM">
-	<Category>ID_INTERNAL_CATEGORY_STARTING</Category>
-	<rules>
-		<statadd name="Language Count" value="+1" />
-	</rules>
+		<Category>ID_INTERNAL_CATEGORY_STARTING</Category>
+		<rules>
+			<statadd name="Language Count" value="+1" />
+		</rules>
 	</RulesElement>
 
 	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_1" name="High Vatharian" type="Language" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
