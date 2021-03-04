@@ -99,7 +99,7 @@
 	
 	<!-- New Powers -->
 	<RulesElement internal-id="ID_EDHELLON_SET_1_POWER_1" name="Flaming Claws" type="Power" source="Edhellon" revision-date="03/03/2021 6:03:15 PM">
-    <Category>ID_FMP_CATEGORY_3, ID_FMP_CATEGORY_24, ID_INTERNAL_CATEGORY_STANDARD_ACTION, ID_INTERNAL_CATEGORY_ATTACK</Category>
+    <Category>ID_FMP_CATEGORY_3, ID_FMP_CATEGORY_24, ID_INTERNAL_CATEGORY_STANDARD_ACTION, ID_INTERNAL_CATEGORY_ATTACK, ID_INTERNAL_CATEGORY_DAILY</Category>
     <Flavor> With a swipe of one dagger, spectral claws of fire drive your enemies back into their fellows, and with a swipe of the second they are all scattered like ashes. </Flavor>
     <specific name="Power Usage"> Daily </specific>
     <specific name="Display"> Item Set Power </specific>
