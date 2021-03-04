@@ -47,7 +47,7 @@
 
 	<!-- New items -->
 
-	 <RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_101" name="Whitestrake Arrow +1" type="Magic Item" source="Edhellon">
+	 <RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_101" name="Whitestrake Arrow +1" type="Magic Item" source="Edhellon" revision-date="03/03/2021 10:10:12 PM">
 		<Flavor> These whitewood arrows appear absolutely flawless and the flectching seems to refract light into a rainbow. </Flavor>
 		<specific name="Level"> 4 </specific>
 		<specific name="Gold"> 840 </specific>
@@ -61,8 +61,8 @@
 		<specific name="Critical" />
 		<specific name="Special" />
 		<specific name="Power"> (At-Will ✦ Radiant) Free Action.  Trigger: You hit an enemy with this ammunition.  Effect: Make a secondary attack.
-		  Secondary Attack: +6 vs. Fortitude.
-		  Hit: Target is dazed and takes 3 ongoing radiant damage (save ends both).
+  Secondary Attack: +6 vs. Fortitude.
+  Hit: Target is dazed and takes 3 ongoing radiant damage (save ends both).
 		</specific>
 		<specific name="_Rarity" />
 		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
