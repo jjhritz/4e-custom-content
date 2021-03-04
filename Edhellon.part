@@ -156,7 +156,7 @@
 		</rules>
 	</RulesElement>
 
-	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_1" name="High Vatharian" type="Language" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
+	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_2" name="High Vatharian" type="Language" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
 		<Category>ID_INTERNAL_CATEGORY_STARTING</Category>
 		<rules>
 			<statadd name="Language Count" value="+1" />
