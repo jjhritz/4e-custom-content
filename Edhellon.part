@@ -110,7 +110,7 @@
     <specific name="Target"> All enemies in burst </specific>
     <specific name="Primary Attack"> Strength vs. Reflex </specific>
     <specific name="Hit"> 2[W] + Strength modifier fire damage, and you push the target 1 square. </specific>
-    <specific name="Effect"> You make a secondary attack in Close Burst 2 with you other weapon</specific>
+    <specific name="Effect"> You make a secondary attack in Close Burst 2 with your other weapon</specific>
     <specific name=" Secondary Attack"> Strength vs. Reflex </specific>
     <specific name=" Hit"> 2[W] + Strength modifier fire damage, and you push the target 1 square. If the target is bloodied, you push it 3 squares.</specific>
     <specific name="Power Type"> Attack </specific>
