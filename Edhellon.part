@@ -12,7 +12,7 @@
 	Updated 24-January-2021 File Created
 	Updated 02-March-2021 Removed incorrect Set Items objects from Daughters of Reki and changed set benefit internal-id.  Renamed set to Undivided Daughters of Reki to conform to new naming convention.
 	Updated 03-March-2021 Changed critical effect of Karnayna (Normal).  Added daily power to Karnayna (Normal).  Updated decription and lore DCs for Undivided Daughters of Reki.  Added description to Daughters of Reki (2).  Changed internal-id for Daughters of Reki (2) set benefit.  Added Hara (Normal).  Added Flaming Claws item set power and included it in Daughters of Reki (2) bonus.  Added Whitestrake Arrows +1.
-	Updated 04-March-2021 Edited Undivided Daughters of Reki lore.  Added missing statadd tag in Undivided Daughters of Reki responsible for increasing item set counter.
+	Updated 04-March-2021 Edited Undivided Daughters of Reki lore.  Added missing statadd tag in Undivided Daughters of Reki responsible for increasing item set counter.  Add _DisplayPowers tag to Daughters of Reki (2) benefit so granted powers display in UI.  Added _Rarity tag to magic items to take advantage of Mordenkainen's formatting in the UI.  Changed gold value of Whitestrake Arrow +1 from 840 to 40.
 	</Changelog>
 
 	<!-- New Feats -->
@@ -49,10 +49,10 @@
 
 	<!-- New items -->
 
-	 <RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_101" name="Whitestrake Arrow +1" type="Magic Item" source="Edhellon" revision-date="04/03/2021 9:15:20 AM">
+	 <RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_101" name="Whitestrake Arrow +1" type="Magic Item" source="Edhellon" revision-date="04/03/2021 9:40:20 AM">
 		<Flavor> These whitewood arrows appear absolutely flawless and the flectching seems to refract light into a rainbow. </Flavor>
 		<specific name="Level"> 4 </specific>
-		<specific name="Gold"> 840 </specific>
+		<specific name="Gold"> 40 </specific>
 		<specific name="Magic Item Type"> Ammunition </specific>
 		<specific name="Tier" />
 		<specific name="_Item_Set_ID" />
