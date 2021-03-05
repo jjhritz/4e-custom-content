@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <D20Rules game-system="D&amp;D4E">
 	<UpdateInfo>
-		<Version>0.03</Version>
+		<Version>0.04</Version>
 		<Filename>Edhellon.part</Filename>
 		<PartAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part</PartAddress>
 		<VersionAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part.ver</VersionAddress>
@@ -13,6 +13,7 @@
 	Updated 02-March-2021 Removed incorrect Set Items objects from Daughters of Reki and changed set benefit internal-id.  Renamed set to Undivided Daughters of Reki to conform to new naming convention.
 	Updated 03-March-2021 Changed critical effect of Karnayna (Normal).  Added daily power to Karnayna (Normal).  Updated decription and lore DCs for Undivided Daughters of Reki.  Added description to Daughters of Reki (2).  Changed internal-id for Daughters of Reki (2) set benefit.  Added Hara (Normal).  Added Flaming Claws item set power and included it in Daughters of Reki (2) bonus.  Added Whitestrake Arrows +1.
 	Updated 04-March-2021 Edited Undivided Daughters of Reki lore.  Added missing statadd tag in Undivided Daughters of Reki responsible for increasing item set counter.  Add _DisplayPowers tag to Daughters of Reki (2) benefit so granted powers display in UI.  Added _Rarity tag to magic items to take advantage of Mordenkainen's formatting in the UI.  Changed gold value of Whitestrake Arrow +1 from 840 to 40.  Fixed power tag formatting so it displays in bold in the editior.  Added miss effect to Flaming Claws.  
+	Updated 05-March-2021 Remove "Rarity" tag from magic items, since the formatting of the "_Rarity" tag takes up less space.  Changed "_Rarity" of artifacts to "Artifact".  Added Mad-Eye of Grobert Dene (Normal), Unwavering Voice of Bryne Eldyn (Normal), Unconquered Soul of Rewyn Rither (Normal), Tireless Arm of Andes Wellsev (Normal).
 	</Changelog>
 
 	<!-- New Feats -->
@@ -76,7 +77,7 @@
 
 	<!-- New artifacts -->
 
-	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="04/03/2021 8:45:30 AM">
+	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="05/03/2021 1:23:30 PM">
 		<Flavor> This ornamented dagger is always warm to the touch.  Though it is scorched, the masterful gold inlay on the blade appears untouched, spelling the name "Karnayna".  The crude scratching on the reverse side of the blade is also clearly visible, spelling the name "Reki".  When drawn, you hear the call of vengeance, not for yourself, but for the fallen around you. </Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
@@ -88,8 +89,8 @@
 		<specific name="Item Slot"/>
 		<specific name="Requirement"/>
 		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
-		<specific name="Rarity"> Rare </specific>
-		<specific name="_Rarity"> Rare </specific>
+		<specific name="Rarity"/>
+		<specific name="_Rarity"> Artifact </specific>
 		<specific name="Critical"> 5 ongoing fire damage (save ends), and +1d8 fire damage against cultists and their allies. </specific>
 		<specific name="Special"/>
 		<specific name="Property"> You gain a +2 item bonus to Intimidate and Streetwise. </specific>
@@ -103,7 +104,7 @@
 		</rules>
 	</RulesElement>
 
-	<RulesElement name="Hara (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1102_NORMAL" source="Edhellon" revision-date="04/03/2021 8:45:30 AM">
+	<RulesElement name="Hara (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1102_NORMAL" source="Edhellon" revision-date="05/03/2021 1:25:20 PM">
 		<Flavor> This ornamented dagger is always warm to the touch.  Though it is scorched, the masterful gold inlay on the blade appears untouched, spelling the name "Hara".  The crude scratching on the reverse side of the blade is also clearly visible, spelling the name "Maraie".  When drawn, you feel an ache and realize how frightful this city has become. </Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
@@ -114,8 +115,8 @@
 		<specific name="Weapon"> Dagger </specific>
 		<specific name="Item Slot"/>
 		<specific name="Requirement"/>
-		<specific name="Rarity"> Rare </specific>
-		<specific name="_Rarity"> Rare </specific>
+		<specific name="Rarity"/ >
+		<specific name="_Rarity"> Artifact </specific>
 		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
 		<specific name="Critical">  +1d6 damage, or +1d8 fire damage against cultists and their allies, and the target is knocked prone.</specific>
 		<specific name="Special"/>
@@ -129,6 +130,120 @@
 			<statadd name="ID_EDHELLON_ITEM_SET_1 Set Count" value="+1" type="Hara" />
 		</rules>
 	</RulesElement>
+	
+	<RulesElement name="Mad-Eye of Grobert Dene (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1103_NORMAL" source="Edhellon" revision-date="05/03/2021 1:42:15 PM">
+		<Flavor> A blue and teal glass orb whose inside swirls with dark energy that belonged to the retired Ashenguard thief and gamble Grobert Dene.  If looked at too long, one feels their sense of time slipping away. </Flavor>
+		<specific name="Level"/>
+		<specific name="Gold"/>
+		<specific name="Magic Item Type"> Artifact </specific>
+		<specific name="Tier"> Heroic </specific>
+		<specific name="_Item_Set_ID" />
+		<specific name="Armor"/>
+		<specific name="Weapon" />
+		<specific name="Item Slot"> Off-hand </specific>
+		<specific name="Requirement"/>
+		<specific name="Rarity"/ >
+		<specific name="_Rarity"> Artifact </specific>
+		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
+		<specific name="Critical">  +1d6 damage psychic damage</specific>
+		<specific name="Special"> The Mad-Eye of Grobert Dene is a +1 Orb implement</specific>
+		<specific name="Property"> You gain a +2 item bonus to Insight and Perception. </specific>
+		<specific name="Power"> Power (Encounter ✦ Healing): Immediate Reaction.  Trigger: you are hit by an enemy attack.  Effect: You may spend a healing surge.  The enemy that hit you is Stunned until the start of its next turn.</specific>
+		<specific name="Power"> Power (Daily ✦ Fear, Zone): Standard action.  Area burst 3 within 10.  Creates zone of phantom horrors until the end of the encounter.  Enemies within are slowed and take a -2 penalty to Will.  The zone grants concealment to allies.  Sustain Minor: Move the zone up to 5 squares.</specific>
+		<specific name="Granted Powers"/>
+		<specific name="_SupportsID" />
+		<specific name="_ImplementEquiv"> Orb </specific>
+		<rules>
+			<statadd name="Insight Misc" value="+2" type="item"/>
+			<statadd name="Perception Misc" value="+2" type="item"/>
+		</rules>
+	</RulesElement>
+
+	<RulesElement name="Unwavering Voice of Bryne Eldyn (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1104_NORMAL" source="Edhellon" revision-date="05/03/2021 1:48:24 PM">
+		<Flavor> A topaz amulet on a fine gold chain, displaying the crest of the Ashenguard bard Bryne Eldyn.  Deformations in the gold resembled a lightning strike and when touched, it seems to vibrate as if humming a song. </Flavor>
+		<specific name="Level"/>
+		<specific name="Gold"/>
+		<specific name="Magic Item Type"> Artifact </specific>
+		<specific name="Tier"> Heroic </specific>
+		<specific name="_Item_Set_ID"/>
+		<specific name="Armor"/>
+		<specific name="Weapon" />
+		<specific name="Item Slot"> Neck </specific>
+		<specific name="Requirement"/>
+		<specific name="Rarity"/ >
+		<specific name="_Rarity"> Artifact </specific>
+		<specific name="Enhancement"> +1 Fortitude, Reflex, and Will </specific>
+		<specific name="Critical" />
+		<specific name="Special" />
+		<specific name="Property"> You gain a +2 item bonus to Arcana and History. </specific>
+		<specific name="Power"> Power (Encounter ✦ Healing): Immediate Interrupt.  Trigger: you are hit by an enemy attack.  Effect: You may shift 3 squares and one ally that can see or hear you may shift up to 3 squares.</specific>
+		<specific name="Power"> Power (Daily ✦ Aura, Thunder): Standard action.  You activate an Aura 5 until the end of the encounter.  All alies in the aura deal +1d6 thunder damage.  Sustain Minor: One random enemy in the aura takes 1d6 thunder damage.</specific>
+		<specific name="Granted Powers"/>
+		<specific name="_SupportsID" />
+		<specific name="_ImplementEquiv" />
+		<rules>
+			<statadd name="Arcana Misc" value="+2" type="item"/>
+			<statadd name="History Misc" value="+2" type="item"/>
+		</rules>
+	</RulesElement>
+
+	<RulesElement name="Unconquered Soul of Rewyn Rither (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1105_NORMAL" source="Edhellon" revision-date="05/03/2021 2:02:45 PM">
+		<Flavor> A holy symbol of Ellarel, the Ingolan god of justice, carved from the bone of a dragon.  The engraving on it has been added to by various hands throughout the years, creating a patchwork of designs, all centered around the family crest of Rither.  Names have been inscribed all along the edges of the symbol, but the list ends very abruptly with the name "Rewyn".</Flavor>
+		<specific name="Level"/>
+		<specific name="Gold"/>
+		<specific name="Magic Item Type"> Artifact </specific>
+		<specific name="Tier"> Heroic </specific>
+		<specific name="_Item_Set_ID"/>
+		<specific name="Armor"/>
+		<specific name="Weapon" />
+		<specific name="Item Slot"> Off-hand </specific>
+		<specific name="Requirement"/>
+		<specific name="Rarity"/ >
+		<specific name="_Rarity"> Artifact </specific>
+		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
+		<specific name="Critical"> +1d6 radiant damage, or +1d10 against servants of Evil gods. </specific>
+		<specific name="Special" />
+		<specific name="Property"> You gain a +2 item bonus to Heal and Religion. </specific>
+		<specific name="Power"> Power (Encounter): Immediate Reaction. Trigger: You are bloodied by an enemy attack.  Effect: You may make one Standard Action as a Free Action, provided you would not be otherwise prevented from taking that action (such as by a status effect).</specific>
+		<specific name="Power"> Power (Daily ✦ Radiant): Standard Action. Attack: +9 vs. Fort. Range: Close burst 3.  Target: Enemies in burst. Hit: 5 radiant damage and target is dazed (save ends).  Effect: Allies in burst can make a basic attack against an enemy in burst.</specific>
+		<specific name="Granted Powers"/>
+		<specific name="_SupportsID" />
+		<specific name="_ImplementEquiv"> Holy Symbol </specific>
+		<rules>
+			<statadd name="Heal Misc" value="+2" type="item"/>
+			<statadd name="Religion Misc" value="+2" type="item"/>
+		</rules>
+	</RulesElement>
+
+	<RulesElement name="Tireless Arm of Andes Wellsev (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1106_NORMAL" source="Edhellon" revision-date="05/03/2021 2:09:42 PM">
+		<Flavor> A weathered shortsword decorated with strong, simple engraving once carried by the Ashenguard sawmill foreman Andes Wellsev.  It appears very well cared for despite its age and touching it fills you with the sense of strong resolve of an old oak tree. *</Flavor>
+		<specific name="Level"/>
+		<specific name="Gold"/>
+		<specific name="Magic Item Type"> Artifact </specific>
+		<specific name="Tier"> Heroic </specific>
+		<specific name="_Item_Set_ID"/>
+		<specific name="Armor"/>
+		<specific name="Weapon"> Short sword </specific>
+		<specific name="Item Slot" />
+		<specific name="Requirement"/>
+		<specific name="Rarity"/ >
+		<specific name="_Rarity"> Artifact </specific>
+		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
+		<specific name="Critical"> +1d8 damage and the target is slowed until the start of your next turn.</specific>
+		<specific name="Special" />
+		<specific name="Property"> You gain a +2 item bonus to Endurance and Insight. </specific>
+		<specific name="Power"> Power (Encounter): Immediate reaction.  Trigger: An ally within 3 squares is moved against their will.  Effect:  The triggering ally can shift up to 3 squares, and all other allies within 3 squares can shift 1 square.</specific>
+		<specific name="Power"> Power (Daily ✦ Healing): Free Action.  Trigger: You bloody an enemy.  Effect: You and all allies who can see you regain 5 HP.  Until the end of the encounter, you and any allies who can see you gain a +1 power bonus to all attack rolls.</specific>
+		<specific name="Granted Powers"/>
+		<specific name="_SupportsID" />
+		<specific name="_ImplementEquiv" />
+		<rules>
+			<statadd name="Endurance Misc" value="+2" type="item"/>
+			<statadd name="Insight Misc" value="+2" type="item"/>
+		</rules>
+	</RulesElement>
+
+
 
 	<!-- New Powers -->
 	<RulesElement internal-id="ID_EDHELLON_SET_1_POWER_1" name="Flaming Claws" type="Power" source="Edhellon" revision-date="03/03/2021 6:03:15 PM">
