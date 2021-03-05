@@ -3,11 +3,14 @@
 	<UpdateInfo>
 		<Version>0.01</Version>
 		<Filename>55-blackpowder.part</Filename>
+		<PartAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/55-blackpowder.part</PartAddress>
+		<VersionAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/55-blackpowder.part.ver</VersionAddress>
 	</UpdateInfo>
 	<!-- Adds basic black powder-era weaponry, such as flintlocks and bayonets -->
 
 	<Changelog>
 	Updated 01-August-2020 File Created
+	Updated 05-March-2021 Added update info.  Fixed duplicate text in Load Full property.
 	</Changelog>
 
 	<!-- New weapon groups -->
@@ -167,8 +170,8 @@ You gain proficiency with bayonets.
 
 
 	<!-- Add new weapon properties -->
-	<RulesElement internal-id="ID_XYZ_WEAPON_PROPERTY_40" name="Load Full" type="Weapon Property" source="Weapons of the Black Powder Age" revision-date="8/3/2020 7:48:39 PM">
-Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the ranged weapons table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow is “load minor,” which means it requires a minor action to load a bolt into the weapon. Early firearms are “load full,” meaning they require an entire turn to load. Early firearms are “load full,” meaning they require an entire turn to load.  If a power allows you to hit multiple targets, the additional load time is accounted for in the power.
+	<RulesElement internal-id="ID_XYZ_WEAPON_PROPERTY_40" name="Load Full" type="Weapon Property" source="Weapons of the Black Powder Age" revision-date="3/5/2021 2:20:39 PM">
+Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the ranged weapons table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow is “load minor,” which means it requires a minor action to load a bolt into the weapon. Early firearms are “load full,” meaning they require an entire turn to load.  If a power allows you to hit multiple targets, the additional load time is accounted for in the power.
 	</RulesElement>
 
 

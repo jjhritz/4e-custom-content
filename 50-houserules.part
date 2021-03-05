@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <D20Rules game-system="D&amp;D4E">
 	<UpdateInfo>
-	<Version>0.04</Version>
+		<Version>0.04</Version>
 		<Filename>50-houserules.part</Filename>
+		<PartAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/50-houserules.part</PartAddress>
+		<VersionAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/50-houserules.part.ver</VersionAddress>
 	</UpdateInfo>
 	<!-- Houserules, mostly at the suggestion of blogofholding.com -->
 
@@ -10,6 +12,7 @@
 	Updated 01-August-2020 File Created
 	Updated 01-August-2020 Updated feat text for consistency with vanilla text and fixed bonus requirements
 	Updated 02-March-2021 Changed Attack Expertise, Damage Focus, and Hero's Trinket to untyped bonuses so they stack with everything.
+	Updated 05-March-2021 Added update info.
 	</Changelog>
 
 	<!-- New houserule Feats -->
