@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <D20Rules game-system="D&amp;D4E">
 	<UpdateInfo>
-		<Version>0.07</Version>
+		<Version>0.08</Version>
 		<Filename>Edhellon.part</Filename>
 		<PartAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part</PartAddress>
 		<VersionAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part.ver</VersionAddress>
@@ -149,8 +149,7 @@
 		<specific name="Special"> The Mad-Eye of Grobert Dene is a +1 Orb implement</specific>
 		<specific name="Property"> You gain a +2 item bonus to Insight and Perception. </specific>
 		<specific name="Power"> Power (Encounter ✦ Healing): Immediate Reaction.  Trigger: you are hit by an enemy attack.  Effect: You may spend a healing surge.  The enemy that hit you is Stunned until the start of its next turn.
-
-Power (Daily ✦ Fear, Zone): Standard action.  Area burst 3 within 10.  Creates zone of phantom horrors until the end of the encounter.  Enemies within are slowed and take a -2 penalty to Will.  The zone grants concealment to allies.  Sustain Minor: Move the zone up to 5 squares.</specific>
+Power (Daily ✦ Fear, Zone): Standard action.  Area burst 3 within 10.  Creates zone of phantom horrors until the end of the encounter.  Enemies within are slowed and take a -2 penalty to Will.  The zone grants concealment to allies.  Sustain Minor: Move the zone up to 3 squares.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID" />
 		<specific name="_ImplementEquiv"> Orb </specific>
@@ -178,7 +177,6 @@ Power (Daily ✦ Fear, Zone): Standard action.  Area burst 3 within 10.  Creates
 		<specific name="Special" />
 		<specific name="Property"> You gain a +2 item bonus to Arcana and History. </specific>
 		<specific name="Power"> Power (Encounter ✦ Healing): Immediate Interrupt.  Trigger: you are hit by an enemy attack.  Effect: You may shift 3 squares and one ally that can see or hear you may shift up to 3 squares.
-
 Power (Daily ✦ Aura, Thunder): Standard action.  You activate an Aura 5 until the end of the encounter.  All alies in the aura deal +1d6 thunder damage.  Sustain Minor: One random enemy in the aura takes 1d6 thunder damage.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID" />
@@ -186,6 +184,9 @@ Power (Daily ✦ Aura, Thunder): Standard action.  You activate an Aura 5 until 
 		<rules>
 			<statadd name="Arcana Misc" value="+2" type="item"/>
 			<statadd name="History Misc" value="+2" type="item"/>
+			<statadd name="Fortitude Defense" value="+1" type="Enhancement" />
+			<statadd name="Reflex Defense" value="+1" type="Enhancement" />
+			<statadd name="Will Defense" value="+1" type="Enhancement" />
 		</rules>
 	</RulesElement>
 
@@ -208,7 +209,6 @@ Power (Daily ✦ Aura, Thunder): Standard action.  You activate an Aura 5 until 
 		<specific name="Special" />
 		<specific name="Property"> You gain a +2 item bonus to Heal and Religion. </specific>
 		<specific name="Power"> Power (Encounter): Immediate Reaction. Trigger: You are bloodied by an enemy attack.  Effect: You may make one Standard Action as a Free Action, provided you would not be otherwise prevented from taking that action (such as by a status effect).
-
 Power (Daily ✦ Radiant): Standard Action. Attack: +9 vs. Fort. Range: Close burst 3.  Target: Enemies in burst. Hit: 5 radiant damage and target is dazed (save ends).  Effect: Allies in burst can make a basic attack against an enemy in burst.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID" />
@@ -220,7 +220,7 @@ Power (Daily ✦ Radiant): Standard Action. Attack: +9 vs. Fort. Range: Close bu
 	</RulesElement>
 
 	<RulesElement name="Tireless Arm of Andes Wellsev (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1106_NORMAL" source="Edhellon" revision-date="05/03/2021 2:09:42 PM">
-		<Flavor> A weathered shortsword decorated with strong, simple engraving once carried by the Ashenguard sawmill foreman Andes Wellsev.  It appears very well cared for despite its age and touching it fills you with the sense of strong resolve of an old oak tree. *</Flavor>
+		<Flavor> A weathered shortsword decorated with strong, simple engraving once carried by the Ashenguard sawmill foreman Andes Wellsev.  It appears very well cared for despite its age and touching it fills you with the sense of strong resolve of an old oak tree.</Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
 		<specific name="Magic Item Type"> Artifact </specific>
