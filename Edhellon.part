@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <D20Rules game-system="D&amp;D4E">
 	<UpdateInfo>
-		<Version>0.06</Version>
+		<Version>0.07</Version>
 		<Filename>Edhellon.part</Filename>
 		<PartAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part</PartAddress>
 		<VersionAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part.ver</VersionAddress>
@@ -148,8 +148,9 @@
 		<specific name="Critical">  +1d6 damage psychic damage</specific>
 		<specific name="Special"> The Mad-Eye of Grobert Dene is a +1 Orb implement</specific>
 		<specific name="Property"> You gain a +2 item bonus to Insight and Perception. </specific>
-		<specific name="Power"> Power (Encounter ✦ Healing): Immediate Reaction.  Trigger: you are hit by an enemy attack.  Effect: You may spend a healing surge.  The enemy that hit you is Stunned until the start of its next turn.</specific>
-		<specific name="Power"> Power (Daily ✦ Fear, Zone): Standard action.  Area burst 3 within 10.  Creates zone of phantom horrors until the end of the encounter.  Enemies within are slowed and take a -2 penalty to Will.  The zone grants concealment to allies.  Sustain Minor: Move the zone up to 5 squares.</specific>
+		<specific name="Power"> Power (Encounter ✦ Healing): Immediate Reaction.  Trigger: you are hit by an enemy attack.  Effect: You may spend a healing surge.  The enemy that hit you is Stunned until the start of its next turn.
+
+Power (Daily ✦ Fear, Zone): Standard action.  Area burst 3 within 10.  Creates zone of phantom horrors until the end of the encounter.  Enemies within are slowed and take a -2 penalty to Will.  The zone grants concealment to allies.  Sustain Minor: Move the zone up to 5 squares.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID" />
 		<specific name="_ImplementEquiv"> Orb </specific>
@@ -176,8 +177,9 @@
 		<specific name="Critical" />
 		<specific name="Special" />
 		<specific name="Property"> You gain a +2 item bonus to Arcana and History. </specific>
-		<specific name="Power"> Power (Encounter ✦ Healing): Immediate Interrupt.  Trigger: you are hit by an enemy attack.  Effect: You may shift 3 squares and one ally that can see or hear you may shift up to 3 squares.</specific>
-		<specific name="Power"> Power (Daily ✦ Aura, Thunder): Standard action.  You activate an Aura 5 until the end of the encounter.  All alies in the aura deal +1d6 thunder damage.  Sustain Minor: One random enemy in the aura takes 1d6 thunder damage.</specific>
+		<specific name="Power"> Power (Encounter ✦ Healing): Immediate Interrupt.  Trigger: you are hit by an enemy attack.  Effect: You may shift 3 squares and one ally that can see or hear you may shift up to 3 squares.
+
+Power (Daily ✦ Aura, Thunder): Standard action.  You activate an Aura 5 until the end of the encounter.  All alies in the aura deal +1d6 thunder damage.  Sustain Minor: One random enemy in the aura takes 1d6 thunder damage.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID" />
 		<specific name="_ImplementEquiv" />
@@ -196,6 +198,7 @@
 		<specific name="_Item_Set_ID"/>
 		<specific name="Armor"/>
 		<specific name="Weapon" />
+		<specific name="Group"> Holy Symbol </specific>
 		<specific name="Item Slot"> Off-hand </specific>
 		<specific name="Requirement"/>
 		<specific name="Rarity"/>
@@ -204,8 +207,9 @@
 		<specific name="Critical"> +1d6 radiant damage, or +1d10 against servants of Evil gods. </specific>
 		<specific name="Special" />
 		<specific name="Property"> You gain a +2 item bonus to Heal and Religion. </specific>
-		<specific name="Power"> Power (Encounter): Immediate Reaction. Trigger: You are bloodied by an enemy attack.  Effect: You may make one Standard Action as a Free Action, provided you would not be otherwise prevented from taking that action (such as by a status effect).</specific>
-		<specific name="Power"> Power (Daily ✦ Radiant): Standard Action. Attack: +9 vs. Fort. Range: Close burst 3.  Target: Enemies in burst. Hit: 5 radiant damage and target is dazed (save ends).  Effect: Allies in burst can make a basic attack against an enemy in burst.</specific>
+		<specific name="Power"> Power (Encounter): Immediate Reaction. Trigger: You are bloodied by an enemy attack.  Effect: You may make one Standard Action as a Free Action, provided you would not be otherwise prevented from taking that action (such as by a status effect).
+
+Power (Daily ✦ Radiant): Standard Action. Attack: +9 vs. Fort. Range: Close burst 3.  Target: Enemies in burst. Hit: 5 radiant damage and target is dazed (save ends).  Effect: Allies in burst can make a basic attack against an enemy in burst.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID" />
 		<specific name="_ImplementEquiv"> Holy Symbol </specific>
@@ -232,8 +236,9 @@
 		<specific name="Critical"> +1d8 damage and the target is slowed until the start of your next turn.</specific>
 		<specific name="Special" />
 		<specific name="Property"> You gain a +2 item bonus to Endurance and Insight. </specific>
-		<specific name="Power"> Power (Encounter): Immediate reaction.  Trigger: An ally within 3 squares is moved against their will.  Effect:  The triggering ally can shift up to 3 squares, and all other allies within 3 squares can shift 1 square.</specific>
-		<specific name="Power"> Power (Daily ✦ Healing): Free Action.  Trigger: You bloody an enemy.  Effect: You and all allies who can see you regain 5 HP.  Until the end of the encounter, you and any allies who can see you gain a +1 power bonus to all attack rolls.</specific>
+		<specific name="Power"> Power (Encounter): Immediate reaction.  Trigger: An ally within 3 squares is moved against their will.  Effect:  The triggering ally can shift up to 3 squares, and all other allies within 3 squares can shift 1 square.
+
+Power (Daily ✦ Healing): Free Action.  Trigger: You bloody an enemy.  Effect: You and all allies who can see you regain 5 HP.  Until the end of the encounter, you and any allies who can see you gain a +1 power bonus to all attack rolls.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID" />
 		<specific name="_ImplementEquiv" />
