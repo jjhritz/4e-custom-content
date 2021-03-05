@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <D20Rules game-system="D&amp;D4E">
 	<UpdateInfo>
-		<Version>0.08</Version>
+		<Version>0.09</Version>
 		<Filename>Edhellon.part</Filename>
 		<PartAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part</PartAddress>
 		<VersionAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part.ver</VersionAddress>
@@ -132,7 +132,7 @@
 	</RulesElement>
 	
 	<RulesElement name="Mad-Eye of Grobert Dene (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1103_NORMAL" source="Edhellon" revision-date="05/03/2021 1:42:15 PM">
-		<Flavor> A blue and teal glass orb whose inside swirls with dark energy that belonged to the retired Ashenguard thief and gamble Grobert Dene.  If looked at too long, one feels their sense of time slipping away. </Flavor>
+		<Flavor> A blue and teal glass orb that belonged to the retired Ashenguard thief and gamble Grobert Dene.  The inside swirls with dark energy and, if looked at too long, one feels their sense of time slipping away. </Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
 		<specific name="Magic Item Type"> Artifact </specific>
