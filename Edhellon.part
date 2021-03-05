@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <D20Rules game-system="D&amp;D4E">
 	<UpdateInfo>
-		<Version>0.05</Version>
+		<Version>0.06</Version>
 		<Filename>Edhellon.part</Filename>
 		<PartAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part</PartAddress>
 		<VersionAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part.ver</VersionAddress>
@@ -115,7 +115,7 @@
 		<specific name="Weapon"> Dagger </specific>
 		<specific name="Item Slot"/>
 		<specific name="Requirement"/>
-		<specific name="Rarity" />
+		<specific name="Rarity"/>
 		<specific name="_Rarity"> Artifact </specific>
 		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
 		<specific name="Critical"> +1d6 damage, or +1d8 fire damage against cultists and their allies, and the target is knocked prone.</specific>
@@ -142,7 +142,7 @@
 		<specific name="Weapon" />
 		<specific name="Item Slot"> Off-hand </specific>
 		<specific name="Requirement"/>
-		<specific name="Rarity"/ >
+		<specific name="Rarity"/>
 		<specific name="_Rarity"> Artifact </specific>
 		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
 		<specific name="Critical">  +1d6 damage psychic damage</specific>
@@ -170,7 +170,7 @@
 		<specific name="Weapon" />
 		<specific name="Item Slot"> Neck </specific>
 		<specific name="Requirement"/>
-		<specific name="Rarity"/ >
+		<specific name="Rarity"/>
 		<specific name="_Rarity"> Artifact </specific>
 		<specific name="Enhancement"> +1 Fortitude, Reflex, and Will </specific>
 		<specific name="Critical" />
@@ -198,7 +198,7 @@
 		<specific name="Weapon" />
 		<specific name="Item Slot"> Off-hand </specific>
 		<specific name="Requirement"/>
-		<specific name="Rarity"/ >
+		<specific name="Rarity"/>
 		<specific name="_Rarity"> Artifact </specific>
 		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
 		<specific name="Critical"> +1d6 radiant damage, or +1d10 against servants of Evil gods. </specific>
@@ -226,7 +226,7 @@
 		<specific name="Weapon"> Short sword </specific>
 		<specific name="Item Slot" />
 		<specific name="Requirement"/>
-		<specific name="Rarity"/ >
+		<specific name="Rarity" />
 		<specific name="_Rarity"> Artifact </specific>
 		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
 		<specific name="Critical"> +1d8 damage and the target is slowed until the start of your next turn.</specific>
