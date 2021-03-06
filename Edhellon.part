@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <D20Rules game-system="D&amp;D4E">
 	<UpdateInfo>
-		<Version>0.09</Version>
+		<Version>0.10</Version>
 		<Filename>Edhellon.part</Filename>
 		<PartAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part</PartAddress>
 		<VersionAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part.ver</VersionAddress>
@@ -13,7 +13,7 @@
 	Updated 02-March-2021 Removed incorrect Set Items objects from Daughters of Reki and changed set benefit internal-id.  Renamed set to Undivided Daughters of Reki to conform to new naming convention.
 	Updated 03-March-2021 Changed critical effect of Karnayna (Normal).  Added daily power to Karnayna (Normal).  Updated decription and lore DCs for Undivided Daughters of Reki.  Added description to Daughters of Reki (2).  Changed internal-id for Daughters of Reki (2) set benefit.  Added Hara (Normal).  Added Flaming Claws item set power and included it in Daughters of Reki (2) bonus.  Added Whitestrake Arrows +1.
 	Updated 04-March-2021 Edited Undivided Daughters of Reki lore.  Added missing statadd tag in Undivided Daughters of Reki responsible for increasing item set counter.  Add _DisplayPowers tag to Daughters of Reki (2) benefit so granted powers display in UI.  Added _Rarity tag to magic items to take advantage of Mordenkainen's formatting in the UI.  Changed gold value of Whitestrake Arrow +1 from 840 to 40.  Fixed power tag formatting so it displays in bold in the editior.  Added miss effect to Flaming Claws.  
-	Updated 05-March-2021 Remove "Rarity" tag from magic items, since the formatting of the "_Rarity" tag takes up less space.  Changed "_Rarity" of artifacts to "Artifact".  Added Mad-Eye of Grobert Dene (Normal), Unwavering Voice of Bryne Eldyn (Normal), Unconquered Soul of Rewyn Rither (Normal), Tireless Arm of Andes Wellsev (Normal).
+	Updated 05-March-2021 Remove "Rarity" tag from magic items, since the formatting of the "_Rarity" tag takes up less space.  Changed "_Rarity" of artifacts to "Artifact".  Added Mad-Eye of Grobert Dene (Normal), Unwavering Voice of Bryne Eldyn (Normal), Unconquered Soul of Rewyn Rither (Normal), Tireless Arm of Andes Wellsev (Normal).  Updated Whitestrake Arrow +1 power text to specify the secondary attack is made against the same target.
 	</Changelog>
 
 	<!-- New Feats -->
@@ -50,7 +50,7 @@
 
 	<!-- New items -->
 
-	 <RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_101" name="Whitestrake Arrow +1" type="Magic Item" source="Edhellon" revision-date="04/03/2021 9:40:20 AM">
+	 <RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_101" name="Whitestrake Arrow +1" type="Magic Item" source="Edhellon" revision-date="05/03/2021 4:26:56 AM">
 		<Flavor> These whitewood arrows appear absolutely flawless and the flectching seems to refract light into a rainbow. </Flavor>
 		<specific name="Level"> 4 </specific>
 		<specific name="Gold"> 40 </specific>
@@ -61,13 +61,13 @@
 		<specific name="Weapon" />
 		<specific name="Item Slot" />
 		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
-		<specific name="Rarity"> Uncommon </specific>
+		<specific name="Rarity" />
 		<specific name="_Rarity"> Uncommon </specific>
 		<specific name="Requirement" />
 		<specific name="Critical" />
 		<specific name="Special" />
 		<specific name="Property"> Target takes 3 radiant damage. </specific>
-		<specific name="Power"> Power (At-Will ✦ Radiant): Free Action.  Trigger: You hit an enemy with this ammunition.  Effect: Make a secondary attack.
+		<specific name="Power"> Power (At-Will ✦ Radiant): Free Action.  Trigger: You hit an enemy with this ammunition.  Effect: Make a secondary attack against the same target.
   Secondary Attack: +6 vs. Fortitude.
   Hit: Target is dazed and takes 3 ongoing radiant damage (save ends both).
 		</specific>
