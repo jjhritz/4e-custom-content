@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <D20Rules game-system="D&amp;D4E">
 	<UpdateInfo>
-		<Version>0.11</Version>
+		<Version>0.12</Version>
 		<Filename>Edhellon.part</Filename>
 		<PartAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part</PartAddress>
 		<VersionAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part.ver</VersionAddress>
@@ -14,7 +14,7 @@
 	Updated 03-March-2021 Changed critical effect of Karnayna (Normal).  Added daily power to Karnayna (Normal).  Updated decription and lore DCs for Undivided Daughters of Reki.  Added description to Daughters of Reki (2).  Changed internal-id for Daughters of Reki (2) set benefit.  Added Hara (Normal).  Added Flaming Claws item set power and included it in Daughters of Reki (2) bonus.  Added Whitestrake Arrows +1.
 	Updated 04-March-2021 Edited Undivided Daughters of Reki lore.  Added missing statadd tag in Undivided Daughters of Reki responsible for increasing item set counter.  Add _DisplayPowers tag to Daughters of Reki (2) benefit so granted powers display in UI.  Added _Rarity tag to magic items to take advantage of Mordenkainen's formatting in the UI.  Changed gold value of Whitestrake Arrow +1 from 840 to 40.  Fixed power tag formatting so it displays in bold in the editior.  Added miss effect to Flaming Claws.  
 	Updated 05-March-2021 Remove "Rarity" tag from magic items, since the formatting of the "_Rarity" tag takes up less space.  Changed "_Rarity" of artifacts to "Artifact".  Added Mad-Eye of Grobert Dene (Normal), Unwavering Voice of Bryne Eldyn (Normal), Unconquered Soul of Rewyn Rither (Normal), Tireless Arm of Andes Wellsev (Normal).  Updated Whitestrake Arrow +1 power text to specify the secondary attack is made against the same target.
-	Updated 06-March-2021 Added Yog's Thunder Cone.
+	Updated 06-March-2021 Added Salva's Thunder Cone.
 	</Changelog>
 
 	<!-- New Feats -->
@@ -75,7 +75,7 @@
 		<specific name="Granted Powers" />
 	</RulesElement>
 
-	<RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_102" name="Yog's Thunder Cone" type="Magic Item" source="Edhellon" revision-date="06/03/2021 4:26:56 AM">
+	<RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_102" name="Salva's Thunder Cone" type="Magic Item" source="Edhellon" revision-date="06/03/2021 4:26:56 AM">
 		<Flavor> This tarnished brass listening cone seems innocuous at first, but watch closely and you may see brief flashes of lightning dance across its surface. Woe betide any who stand before its mouth.</Flavor>
 		<specific name="Level"> 4 </specific>
 		<specific name="Gold"> 840 </specific>
