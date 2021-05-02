@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <D20Rules game-system="D&amp;D4E">
 	<UpdateInfo>
-		<Version>0.12</Version>
+		<Version>0.13</Version>
 		<Filename>Edhellon.part</Filename>
 		<PartAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part</PartAddress>
 		<VersionAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part.ver</VersionAddress>
@@ -15,9 +15,26 @@
 	Updated 04-March-2021 Edited Undivided Daughters of Reki lore.  Added missing statadd tag in Undivided Daughters of Reki responsible for increasing item set counter.  Add _DisplayPowers tag to Daughters of Reki (2) benefit so granted powers display in UI.  Added _Rarity tag to magic items to take advantage of Mordenkainen's formatting in the UI.  Changed gold value of Whitestrake Arrow +1 from 840 to 40.  Fixed power tag formatting so it displays in bold in the editior.  Added miss effect to Flaming Claws.  
 	Updated 05-March-2021 Remove "Rarity" tag from magic items, since the formatting of the "_Rarity" tag takes up less space.  Changed "_Rarity" of artifacts to "Artifact".  Added Mad-Eye of Grobert Dene (Normal), Unwavering Voice of Bryne Eldyn (Normal), Unconquered Soul of Rewyn Rither (Normal), Tireless Arm of Andes Wellsev (Normal).  Updated Whitestrake Arrow +1 power text to specify the secondary attack is made against the same target.
 	Updated 06-March-2021 Added Salva's Thunder Cone.
+	Updated 30-April-2021 Changed Tireless Arm of Andes Wellsev (Normal) to Leather Armor.  Added Obsidian Blade weapon, as well as proficiency and feat.
+	Updated 02-May-2021 Changed artifacts to use dedicated power tags.  Changed description of Mad Eye of Grobert Dene (Normal) to read more clearly.
 	</Changelog>
 
+	<!-- New Weapon Proficiencies -->
+	<RulesElement internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(OBSIDIAN_BLADE)" name="Weapon Proficiency (Obsidian Blade)" type="Proficiency" source="Edhellon" revision-date="30/04/2020 10:58:20 AM">
+		<Category>ID_FMP_WEAPON_GROUP_2,ID_INTERNAL_CATEGORY_SUPERIOR,ID_INTERNAL_CATEGORY_MELEE</Category>
+	</RulesElement>
+
 	<!-- New Feats -->
+	<RulesElement name="Weapon Proficiency (Obsidian Blade)" type="Feat" internal-id="ID_INTERNAL_FEAT_WEAPON_PROFICIENCY_(OBSIDIAN_BLADE)" source="Edhellon" revision-date="30/04/2020 10:56:30 AM" >
+	<specific name="_SupportsID"> ID_EDHELLON_FEAT_0001 </specific>
+		<specific name="_RequiresID" />
+		<specific name="Short Description"> Gain proficiency with obsidian blades. </specific>
+		<specific name="Tier"> Heroic </specific>
+		<rules>
+			<grant name="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(OBSIDIAN_BLADE)" type="Proficiency" />
+		</rules>
+You gain proficiency with obsidian blades
+	</RulesElement>
 
 	<!-- New item sets -->
 
@@ -68,7 +85,7 @@
 		<specific name="Critical" />
 		<specific name="Special" />
 		<specific name="Property"> Target takes 3 radiant damage. </specific>
-		<specific name="Power"> Power (At-Will ✦ Radiant): Free Action.  Trigger: You hit an enemy with this ammunition.  Effect: Make a secondary attack against the same target.
+		<specific name="Power (At-Will ✦ Radiant)"> Free Action. Trigger: You hit an enemy with this ammunition.  Effect: Make a secondary attack against the same target.
   Secondary Attack: +6 vs. Fortitude.
   Hit: Target is dazed and takes 3 ongoing radiant damage (save ends both).
 		</specific>
@@ -93,7 +110,7 @@
 		<specific name="Critical" />
 		<specific name="Special" />
 		<specific name="Property"> Put the mouth of the cone against a flat surface and place your ear against its flattened tip to amplify the sounds you might hear beyond. This item grants a +2 bonus to Perception checks to listen through doors and walls. </specific>
-		<specific name="Power"> Power (Daily ✦ Thunder): Standard action. You remove the cone from your head and brandish it like a weapon. Make an attack against all creatures in Close blast 3: +7 vs. Reflex.  Hit: Target takes 2d8 thunder damage and is deafened (save ends).  Miss: Half damage.</specific>
+		<specific name="Power (Daily ✦ Thunder)"> Standard action. You remove the cone from your head and brandish it like a weapon. Make an attack against all creatures in Close blast 3: +7 vs. Reflex.  Hit: Target takes 2d8 thunder damage and is deafened (save ends).  Miss: Half damage.</specific>
 		<specific name="Granted Powers" />
 	</RulesElement>
 
@@ -101,7 +118,7 @@
 
 	<!-- New artifacts -->
 
-	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="05/03/2021 1:23:30 PM">
+	<RulesElement name="Karnayna (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1101_NORMAL" source="Edhellon" revision-date="02/05/2021 3:09:30 PM">
 		<Flavor> This ornamented dagger is always warm to the touch.  Though it is scorched, the masterful gold inlay on the blade appears untouched, spelling the name "Karnayna".  The crude scratching on the reverse side of the blade is also clearly visible, spelling the name "Reki".  When drawn, you hear the call of vengeance, not for yourself, but for the fallen around you. </Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
@@ -118,7 +135,7 @@
 		<specific name="Critical"> 5 ongoing fire damage (save ends), and +1d8 fire damage against cultists and their allies. </specific>
 		<specific name="Special"/>
 		<specific name="Property"> You gain a +2 item bonus to Intimidate and Streetwise. </specific>
-		<specific name="Power"> Power (Encounter ✦ Fire): Free Action.  Trigger: You hit an enemy with this weapon.  Effect: The target takes fire damage equal to your Charisma modifier.  Until the end of your next turn, you and all allies have a +2 bonus on attacks against the target and the target cannot benefit from concealment.</specific>
+		<specific name="Power (Encounter ✦ Fire)"> Free Action.  Trigger: You hit an enemy with this weapon.  Effect: The target takes fire damage equal to your Charisma modifier.  Until the end of your next turn, you and all allies have a +2 bonus on attacks against the target and the target cannot benefit from concealment.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID"> ID_EDHELLON_ITEM_SET_1 </specific>
 		<rules>
@@ -128,7 +145,7 @@
 		</rules>
 	</RulesElement>
 
-	<RulesElement name="Hara (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1102_NORMAL" source="Edhellon" revision-date="05/03/2021 1:25:20 PM">
+	<RulesElement name="Hara (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1102_NORMAL" source="Edhellon" revision-date="02/05/2021 3:08:20 PM">
 		<Flavor> This ornamented dagger is always warm to the touch.  Though it is scorched, the masterful gold inlay on the blade appears untouched, spelling the name "Hara".  The crude scratching on the reverse side of the blade is also clearly visible, spelling the name "Maraie".  When drawn, you feel an ache and realize how frightful this city has become. </Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
@@ -145,7 +162,7 @@
 		<specific name="Critical"> +1d6 damage, or +1d8 fire damage against cultists and their allies, and the target is knocked prone.</specific>
 		<specific name="Special"/>
 		<specific name="Property"> You gain a +2 item bonus to Diplomacy and Stealth. </specific>
-		<specific name="Power"> Power (Encounter): Minor Action.  Gain a +2 power bonus to AC and Reflex until the start of your next turn.  The first enemy that hits you with an attack while this ability is active is blinded until the end of its next turn.</specific>
+		<specific name="Power (Encounter)"> Minor Action.  Gain a +2 power bonus to AC and Reflex until the start of your next turn.  The first enemy that hits you with an attack while this ability is active is blinded until the end of its next turn.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID"> ID_EDHELLON_ITEM_SET_1 </specific>
 		<rules>
@@ -155,8 +172,8 @@
 		</rules>
 	</RulesElement>
 	
-	<RulesElement name="Mad-Eye of Grobert Dene (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1103_NORMAL" source="Edhellon" revision-date="05/03/2021 1:42:15 PM">
-		<Flavor> A blue and teal glass orb that belonged to the retired Ashenguard thief and gamble Grobert Dene.  The inside swirls with dark energy and, if looked at too long, one feels their sense of time slipping away. </Flavor>
+	<RulesElement name="Mad-Eye of Grobert Dene (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1103_NORMAL" source="Edhellon" revision-date="02/05/2021 3:10:15 PM">
+		<Flavor> A blue and teal glass orb that belonged to the retired Ashenguard thief and gambler Grobert Dene.  The inside swirls with dark energy and, if looked at too long, causes on to feel their sense of time slipping away. </Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
 		<specific name="Magic Item Type"> Artifact </specific>
@@ -172,8 +189,8 @@
 		<specific name="Critical">  +1d6 damage psychic damage</specific>
 		<specific name="Special"> The Mad-Eye of Grobert Dene is a +1 Orb implement</specific>
 		<specific name="Property"> You gain a +2 item bonus to Insight and Perception. </specific>
-		<specific name="Power"> Power (Encounter ✦ Healing): Immediate Reaction.  Trigger: you are hit by an enemy attack.  Effect: You may spend a healing surge.  The enemy that hit you is Stunned until the start of its next turn.
-Power (Daily ✦ Fear, Zone): Standard action.  Area burst 3 within 10.  Creates zone of phantom horrors until the end of the encounter.  Enemies within are slowed and take a -2 penalty to Will.  The zone grants concealment to allies.  Sustain Minor: Move the zone up to 3 squares.</specific>
+		<specific name="Power (Encounter ✦ Healing)"> Immediate Reaction.  Trigger: you are hit by an enemy attack.  Effect: You may spend a healing surge.  The enemy that hit you is Stunned until the start of its next turn.</specific>
+	<specific name="Power (Daily ✦ Fear, Zone)"> Standard action.  Area burst 3 within 10.  Creates zone of phantom horrors until the end of the encounter.  Enemies within are slowed and take a -2 penalty to Will.  The zone grants concealment to allies.  Sustain Minor: Move the zone up to 3 squares.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID" />
 		<specific name="_ImplementEquiv"> Orb </specific>
@@ -183,7 +200,7 @@ Power (Daily ✦ Fear, Zone): Standard action.  Area burst 3 within 10.  Creates
 		</rules>
 	</RulesElement>
 
-	<RulesElement name="Unwavering Voice of Bryne Eldyn (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1104_NORMAL" source="Edhellon" revision-date="05/03/2021 1:48:24 PM">
+	<RulesElement name="Unwavering Voice of Bryne Eldyn (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1104_NORMAL" source="Edhellon" revision-date="02/05/2021 3:10:24 PM">
 		<Flavor> A topaz amulet on a fine gold chain, displaying the crest of the Ashenguard bard Bryne Eldyn.  Deformations in the gold resembled a lightning strike and when touched, it seems to vibrate as if humming a song. </Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
@@ -200,8 +217,8 @@ Power (Daily ✦ Fear, Zone): Standard action.  Area burst 3 within 10.  Creates
 		<specific name="Critical" />
 		<specific name="Special" />
 		<specific name="Property"> You gain a +2 item bonus to Arcana and History. </specific>
-		<specific name="Power"> Power (Encounter ✦ Healing): Immediate Interrupt.  Trigger: you are hit by an enemy attack.  Effect: You may shift 3 squares and one ally that can see or hear you may shift up to 3 squares.
-Power (Daily ✦ Aura, Thunder): Standard action.  You activate an Aura 5 until the end of the encounter.  All alies in the aura deal +1d6 thunder damage.  Sustain Minor: One random enemy in the aura takes 1d6 thunder damage.</specific>
+		<specific name="Power (Encounter ✦ Healing)"> Immediate Interrupt.  Trigger: you are hit by an enemy attack.  Effect: You may shift 3 squares and one ally that can see or hear you may shift up to 3 squares. </specific>
+		<specific name="Power (Daily ✦ Aura, Thunder)"> Standard action.  You activate an Aura 5 until the end of the encounter.  All alies in the aura deal +1d6 thunder damage.  Sustain Minor: One random enemy in the aura takes 1d6 thunder damage.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID" />
 		<specific name="_ImplementEquiv" />
@@ -214,7 +231,7 @@ Power (Daily ✦ Aura, Thunder): Standard action.  You activate an Aura 5 until 
 		</rules>
 	</RulesElement>
 
-	<RulesElement name="Unconquered Soul of Rewyn Rither (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1105_NORMAL" source="Edhellon" revision-date="05/03/2021 2:02:45 PM">
+	<RulesElement name="Unconquered Soul of Rewyn Rither (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1105_NORMAL" source="Edhellon" revision-date="05/03/2021 3:10:45 PM">
 		<Flavor> A holy symbol of Ellarel, the Ingolan god of justice, carved from the bone of a dragon.  The engraving on it has been added to by various hands throughout the years, creating a patchwork of designs, all centered around the family crest of Rither.  Names have been inscribed all along the edges of the symbol, but the list ends very abruptly with the name "Rewyn".</Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
@@ -232,8 +249,8 @@ Power (Daily ✦ Aura, Thunder): Standard action.  You activate an Aura 5 until 
 		<specific name="Critical"> +1d6 radiant damage, or +1d10 against servants of Evil gods. </specific>
 		<specific name="Special" />
 		<specific name="Property"> You gain a +2 item bonus to Heal and Religion. </specific>
-		<specific name="Power"> Power (Encounter): Immediate Reaction. Trigger: You are bloodied by an enemy attack.  Effect: You may make one Standard Action as a Free Action, provided you would not be otherwise prevented from taking that action (such as by a status effect).
-Power (Daily ✦ Radiant): Standard Action. Attack: +9 vs. Fort. Range: Close burst 3.  Target: Enemies in burst. Hit: 5 radiant damage and target is dazed (save ends).  Effect: Allies in burst can make a basic attack against an enemy in burst.</specific>
+		<specific name="Power (Encounter)"> Immediate Reaction. Trigger: You are bloodied by an enemy attack.  Effect: You may make one Standard Action as a Free Action, provided you would not be otherwise prevented from taking that action (such as by a status effect).</specific>
+		<specific name="Power (Daily ✦ Radiant)"> Standard Action. Attack: +9 vs. Fort. Range: Close burst 3.  Target: Enemies in burst. Hit: 5 radiant damage and target is dazed (save ends).  Effect: Allies in burst can make a basic attack against an enemy in burst.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID" />
 		<specific name="_ImplementEquiv"> Holy Symbol </specific>
@@ -243,32 +260,33 @@ Power (Daily ✦ Radiant): Standard Action. Attack: +9 vs. Fort. Range: Close bu
 		</rules>
 	</RulesElement>
 
-	<RulesElement name="Tireless Arm of Andes Wellsev (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1106_NORMAL" source="Edhellon" revision-date="05/03/2021 2:09:42 PM">
-		<Flavor> A weathered shortsword decorated with strong, simple engraving once carried by the Ashenguard sawmill foreman Andes Wellsev.  It appears very well cared for despite its age and touching it fills you with the sense of strong resolve of an old oak tree.</Flavor>
+	<RulesElement name="Tireless Arm of Andes Wellsev (Normal)" type="Magic Item" internal-id="ID_EDHELLON_MAGIC_ITEM_1106_NORMAL" source="Edhellon" revision-date="02/05/2021 03:12:42 PM">
+		<Flavor> A worn leather jerkin decorated with simple embroidery, once worn by the Ashenguard sawmill foreman Andes Wellsev.  It appears very well cared for despite its age and touching it fills you with the sense of strong resolve of an old oak tree.</Flavor>
 		<specific name="Level"/>
 		<specific name="Gold"/>
 		<specific name="Magic Item Type"> Artifact </specific>
 		<specific name="Tier"> Heroic </specific>
-		<specific name="_Item_Set_ID"/>
-		<specific name="Armor"/>
-		<specific name="Weapon"> Short sword </specific>
+		<specific name="_Item_Set_ID" />
+		<specific name="Armor"> Leather Armor </specific>
+		<specific name="Weapon" />
 		<specific name="Item Slot" />
 		<specific name="Requirement"/>
 		<specific name="Rarity" />
 		<specific name="_Rarity"> Artifact </specific>
-		<specific name="Enhancement"> +1 attack rolls and damage rolls </specific>
-		<specific name="Critical"> +1d8 damage and the target is slowed until the start of your next turn.</specific>
+		<specific name="Enhancement"> +1 AC </specific>
+		<specific name="Critical" />
 		<specific name="Special" />
 		<specific name="Property"> You gain a +2 item bonus to Endurance and Insight. </specific>
-		<specific name="Power"> Power (Encounter): Immediate reaction.  Trigger: An ally within 3 squares is moved against their will.  Effect:  The triggering ally can shift up to 3 squares, and all other allies within 3 squares can shift 1 square.
-
-Power (Daily ✦ Healing): Free Action.  Trigger: You bloody an enemy.  Effect: You and all allies who can see you regain 5 HP.  Until the end of the encounter, you and any allies who can see you gain a +1 power bonus to all attack rolls.</specific>
+		<specific name="Power (Encounter)"> Free action.  Trigger: You or an ally that can see and hear uses the Aid Another, Aid Attack, or Aid Defense action.  Effect: The bonus granted to the target of the Aid equals +4 instead of +2.</specific>
+		<specific name="Power (Daily)"> Immediate interrupt.  Trigger: You or an ally within 5 squares of you takes typed damage.  Effect: You and all allies gain Resist 5 against that damage type until the end of the encounter.</specific>
 		<specific name="Granted Powers"/>
 		<specific name="_SupportsID" />
 		<specific name="_ImplementEquiv" />
 		<rules>
 			<statadd name="Endurance Misc" value="+2" type="item"/>
 			<statadd name="Insight Misc" value="+2" type="item"/>
+			<statadd name="Armor Class" value="+1" type="Enhancement" />
+			<statadd name="Armor Enhancement Bonus" value="+1" />
 		</rules>
 	</RulesElement>
 
@@ -295,7 +313,40 @@ Power (Daily ✦ Healing): Free Action.  Trigger: You bloody an enemy.  Effect: 
 		<specific name=" Miss"> Half damage. </specific>
 		<specific name="Power Type"> Attack </specific>
 	</RulesElement>
-	
+
+	<!-- New Weapons -->
+	<RulesElement internal-id="ID_EDHELLON_WEAPON_0001" name="Obsidian Blade" type="Weapon" source="Edhellon" revision-date="8/4/2020 11:44:15 AM">
+		<Category>ID_FMP_WEAPON_PROPERTY_1,ID_FMP_WEAPON_GROUP_2,ID_INTERNAL_CATEGORY_ONE-HANDED,ID_INTERNAL_CATEGORY_SELECTABLE</Category>
+		<specific name="Full Text"> Obsidian Blade
+Superior one-handed melee weapon
+Cost: 0 gp
+Damage: 1d6
+Proficient: +3
+Weight: 2 lb.
+
+Properties: 
+Brutal 2 (A brutal weapon's minimum damage is higher than that of a normal weapon. When rolling the weapon's damage, reroll any die that displays a value equal to or lower than the brutal value given for the weapon. Reroll the die until the value shown exceeds the weapon's brutal value, and then use the new value.).
+
+High Crit (A high crit weapon deals more damage when you score a critical hit with it. A critical hit deals maximum weapon damage and an extra 1[W] at 1st–10th levels, an extra 2[W] at 11th–20th levels, and an extra 3[W] at 21st–30th levels. This extra damage is in addition to any critical damage the weapon supplies if it is a magic weapon.).
+
+Off-Hand (An off-hand weapon is light enough that you can hold it and attack effectively with it while holding a weapon in your main hand. You can't attack with both weapons in the same turn, unless you have a power that lets you do so, but you can attack with either weapon.).
+
+Group: 
+Light blade (Light blades reward accuracy as much as force. Pinpoint attacks, lunges, and agile defenses are the strong points of these weapons.).
+</specific>
+		<specific name="Weight"> 2 </specific>
+		<specific name="Gold"> 25 </specific>
+		<specific name="Range" />
+		<specific name="Damage"> 1d6 </specific>
+		<specific name="Proficiency Bonus"> 3 </specific>
+		<specific name="_Primary End" />
+		<specific name="Weapon Category"> Superior Melee </specific>
+		<specific name="Hands Required"> One-Handed </specific>
+		<specific name="Item Slot"> Off-hand </specific>
+		<specific name="Group"> Light Blade </specific>
+		<specific name="Properties"> Off-hand, Brutal, High Crit </specific>
+	</RulesElement>
+
 	<!-- New Languages -->
 	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_1" name="North Ingolan" type="Language" source="Edhellon" revision-date="24/01/2021 10:03:50 PM">
 		<Category>ID_INTERNAL_CATEGORY_STARTING</Category>
