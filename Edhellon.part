@@ -348,21 +348,31 @@ Light blade (Light blades reward accuracy as much as force. Pinpoint attacks, lu
 	</RulesElement>
 
 	<!-- New Languages -->
-	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_1" name="North Ingolan" type="Language" source="Edhellon" revision-date="24/01/2021 10:03:50 PM">
+	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_1" name="North Ingolan" type="Language" source="Edhellon" revision-date="13/04/2022 08:36:50 AM">
 		<Category>ID_INTERNAL_CATEGORY_STARTING</Category>
 		<rules>
 			<statadd name="Language Count" value="+1" />
 		</rules>
+		North Ingolan is the dialect of the Ingolan language spoken by the people of the North Ingol Valley.  It is the primary language of Ashenguard and the Duchy of Beliene.
 	</RulesElement>
 
-	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_2" name="High Vatharian" type="Language" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
+	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_2" name="High Vatharian" type="Language" source="Edhellon" revision-date="13/04/2022 08:36:50 AM">
 		<Category>ID_INTERNAL_CATEGORY_STARTING</Category>
 		<rules>
 			<statadd name="Language Count" value="+1" />
 		</rules>
+		High Vatharian is was the official language of the Vatharian Empire, used mainly by its nobility and administrators.  While once widespread at the height of the Vatharian Empire, it has nearly died out.
 	</RulesElement>
 
-	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_3" name="Akil" type="Language" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
+	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_3" name="Low Vatharian" type="Language" source="Edhellon" revision-date="13/04/2022 08:35:30 AM">
+		<Category>ID_INTERNAL_CATEGORY_STARTING</Category>
+		<rules>
+			<statadd name="Language Count" value="+1" />
+		</rules>
+		Low Vatharian is the language spoken by the Vatharian people.  It was the common language of the Vatharian Empire, and is still used in the empire's former heartland.
+	</RulesElement>
+
+	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_4" name="Akil" type="Language" source="Edhellon" revision-date="13/04/2022 08:35:45 AM">
 		<Category>ID_INTERNAL_CATEGORY_STARTING</Category>
 		<rules>
 			<statadd name="Language Count" value="+1" />
@@ -370,7 +380,7 @@ Light blade (Light blades reward accuracy as much as force. Pinpoint attacks, lu
 		Akil is the language spoken by the Akil people of the Yaakitar Vale.
 	</RulesElement>
 
-	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_4" name="Eshna" type="Language" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
+	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_5" name="Eshna" type="Language" source="Edhellon" revision-date="13/04/2022 08:36:30 AM">
 		<Category>ID_INTERNAL_CATEGORY_STARTING</Category>
 		<rules>
 			<statadd name="Language Count" value="+1" />
