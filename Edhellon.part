@@ -361,4 +361,20 @@ Light blade (Light blades reward accuracy as much as force. Pinpoint attacks, lu
 			<statadd name="Language Count" value="+1" />
 		</rules>
 	</RulesElement>
+
+	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_3" name="Akil" type="Language" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
+		<Category>ID_INTERNAL_CATEGORY_STARTING</Category>
+		<rules>
+			<statadd name="Language Count" value="+1" />
+		</rules>
+		Akil is the language spoken by the Akil people of the Yaakitar Vale.
+	</RulesElement>
+
+	<RulesElement internal-id="ID_EDHELLON_LANGUAGE_4" name="Eshna" type="Language" source="Edhellon" revision-date="02/03/2021 10:27:30 PM">
+		<Category>ID_INTERNAL_CATEGORY_STARTING</Category>
+		<rules>
+			<statadd name="Language Count" value="+1" />
+		</rules>
+		Eshna is the language spoken by the Eshnu people.  While once widespread at the height of the Eshnuri Empire, its usage is now uncommon.
+	</RulesElement>
 </D20Rules>
