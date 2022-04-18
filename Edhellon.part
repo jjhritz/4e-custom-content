@@ -129,6 +129,10 @@ You gain proficiency with obsidian blades
 		<specific name="Special" />
 		<specific name="Power (Encounter ✦ Zone)"> Standard Action. When you plant the battle standard in your space or an adjacent square, it creates a zone in a close burst 5. While within the zone, you and your allies gain a +1 power bonus on attack and damage rolls.  Against creatures with the Shadow origin, the undead keyword, or those that serve deities of undeath, this bonus is increased to +2.
 This effect lasts until the end of the encounter or until the battle standard is removed from the ground. Any character in or adjacent to a battle standard's square can remove it from the ground as a standard action. </specific>
+		<specific name="_Rarity" />
+		<specific name="Granted Powers" />
+		<specific name="Rarity"> Uncommon </specific>
+	</RulesElement>
 
 
 
