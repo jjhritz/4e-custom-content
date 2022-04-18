@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <D20Rules game-system="D&amp;D4E">
 	<UpdateInfo>
-		<Version>0.15</Version>
+		<Version>0.16</Version>
 		<Filename>Edhellon.part</Filename>
 		<PartAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part</PartAddress>
 		<VersionAddress>https://raw.githubusercontent.com/jjhritz/4e-custom-content/master/Edhellon.part.ver</VersionAddress>
@@ -17,6 +17,8 @@
 	Updated 06-March-2021 Added Salva's Thunder Cone.
 	Updated 30-April-2021 Changed Tireless Arm of Andes Wellsev (Normal) to Leather Armor.  Added Obsidian Blade weapon, as well as proficiency and feat.
 	Updated 02-May-2021 Changed artifacts to use dedicated power tags.  Changed description of Mad Eye of Grobert Dene (Normal) to read more clearly.
+	Updated 13-April-2022 Added Akil and Eshna languages for campaigns in the Yaakitar Vale.  Added Low Vatharian language for campaigns in the Ingol Valley.  Added descriptions to existing languages.
+	Updated 18-April-2022 Added wondrous item Battle Standard of the Garnet Legion (heroic tier).
 	</Changelog>
 
 	<!-- New Weapon Proficiencies -->
@@ -124,14 +126,14 @@ You gain proficiency with obsidian blades
 		<specific name="Armor" />
 		<specific name="Weapon" />
 		<specific name="Item Slot" />
+		<specific name="Rarity" />
+		<specific name="_Rarity">Uncommon</specific>
 		<specific name="Requirement" />
 		<specific name="Critical" />
 		<specific name="Special" />
 		<specific name="Power (Encounter ✦ Zone)"> Standard Action. When you plant the battle standard in your space or an adjacent square, it creates a zone in a close burst 5. While within the zone, you and your allies gain a +1 power bonus on attack and damage rolls.  Against creatures with the Shadow origin, the undead keyword, or those that serve deities of undeath, this bonus is increased to +2.
 This effect lasts until the end of the encounter or until the battle standard is removed from the ground. Any character in or adjacent to a battle standard's square can remove it from the ground as a standard action. </specific>
-		<specific name="_Rarity" />
 		<specific name="Granted Powers" />
-		<specific name="Rarity"> Uncommon </specific>
 	</RulesElement>
 
 
