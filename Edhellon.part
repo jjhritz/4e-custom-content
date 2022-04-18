@@ -114,6 +114,22 @@ You gain proficiency with obsidian blades
 		<specific name="Granted Powers" />
 	</RulesElement>
 
+	<RulesElement internal-id="ID_EDHELLON_MAGIC_ITEM_103" name="Battle Standard of the Garnet Legion (heroic tier)" type="Magic Item" source="Edhellon">
+		<Flavor> This flag is embroidered with iconography and honors of the last Eshnuri imperial legion, and inspires you with memories of their greatest victory over the Prince of Undeath. </Flavor>
+		<specific name="Level"> 5 </specific>
+		<specific name="Gold"> 1000 </specific>
+		<specific name="Magic Item Type"> Wondrous Item </specific>
+		<specific name="Tier" />
+		<specific name="_Item_Set_ID" />
+		<specific name="Armor" />
+		<specific name="Weapon" />
+		<specific name="Item Slot" />
+		<specific name="Requirement" />
+		<specific name="Critical" />
+		<specific name="Special" />
+		<specific name="Power (Encounter ✦ Zone)"> Standard Action. When you plant the battle standard in your space or an adjacent square, it creates a zone in a close burst 5. While within the zone, you and your allies gain a +1 power bonus on attack and damage rolls.  Against creatures with the Shadow origin, the undead keyword, or those that serve deities of undeath, this bonus is increased to +2.
+This effect lasts until the end of the encounter or until the battle standard is removed from the ground. Any character in or adjacent to a battle standard's square can remove it from the ground as a standard action. </specific>
+
 
 
 	<!-- New artifacts -->
@@ -289,7 +305,6 @@ You gain proficiency with obsidian blades
 			<statadd name="Armor Enhancement Bonus" value="+1" />
 		</rules>
 	</RulesElement>
-
 
 
 	<!-- New Powers -->
